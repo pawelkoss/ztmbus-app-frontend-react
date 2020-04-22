@@ -1,0 +1,7373 @@
+[
+    {
+      "street": "1 Sierpnia"
+    },
+    {
+      "street": "1.Praskiego Pułku"
+    },
+    {
+      "street": "11 Listopada"
+    },
+    {
+      "street": "3 Maja"
+    },
+    {
+      "street": "Abrahama"
+    },
+    {
+      "street": "Adamieckiego"
+    },
+    {
+      "street": "Adampolska"
+    },
+    {
+      "street": "Afrykańska"
+    },
+    {
+      "street": "Agatowa"
+    },
+    {
+      "street": "AGRICOOP"
+    },
+    {
+      "street": "Agrykola"
+    },
+    {
+      "street": "Akacjowa"
+    },
+    {
+      "street": "Akademijna"
+    },
+    {
+      "street": "Akcent"
+    },
+    {
+      "street": "Al. 3 Maja"
+    },
+    {
+      "street": "al.\"Solidarności\""
+    },
+    {
+      "street": "al.Bohaterów Września"
+    },
+    {
+      "street": "al.Jana Pawła II"
+    },
+    {
+      "street": "Al.Jedności"
+    },
+    {
+      "street": "al.Lotników"
+    },
+    {
+      "street": "al.Piłsudskiego"
+    },
+    {
+      "street": "al.Reymonta"
+    },
+    {
+      "street": "al.Sybiraków"
+    },
+    {
+      "street": "al.Wielkopolski"
+    },
+    {
+      "street": "al.Witosa"
+    },
+    {
+      "street": "al.Wojska Polskiego"
+    },
+    {
+      "street": "al.Zieleniecka"
+    },
+    {
+      "street": "Aleja Bzów"
+    },
+    {
+      "street": "Aleja Róż"
+    },
+    {
+      "street": "Aleksandrów"
+    },
+    {
+      "street": "Alpejska-Instytut"
+    },
+    {
+      "street": "Aluzyjna"
+    },
+    {
+      "street": "Ambaras"
+    },
+    {
+      "street": "Ananasowa"
+    },
+    {
+      "street": "Andersena"
+    },
+    {
+      "street": "Andrutowa"
+    },
+    {
+      "street": "Anemonów"
+    },
+    {
+      "street": "Anielewicza"
+    },
+    {
+      "street": "Annopol"
+    },
+    {
+      "street": "Anny Jagiellonki"
+    },
+    {
+      "street": "Antka Rozpylacza"
+    },
+    {
+      "street": "Antoniewska"
+    },
+    {
+      "street": "Anusin"
+    },
+    {
+      "street": "Anusinek"
+    },
+    {
+      "street": "Arbuzowa"
+    },
+    {
+      "street": "Archimedesa"
+    },
+    {
+      "street": "Arena Legionowo"
+    },
+    {
+      "street": "Areszt Śledczy Grochów"
+    },
+    {
+      "street": "Areszt Śledczy Służewiec"
+    },
+    {
+      "street": "Arkadyjska"
+    },
+    {
+      "street": "Armatnia"
+    },
+    {
+      "street": "Armii \"Poznań\""
+    },
+    {
+      "street": "Armii Krajowej"
+    },
+    {
+      "street": "Aroniowa"
+    },
+    {
+      "street": "Aspekt"
+    },
+    {
+      "street": "Astronautów"
+    },
+    {
+      "street": "Ateńska"
+    },
+    {
+      "street": "Atrakcyjna"
+    },
+    {
+      "street": "Augustów"
+    },
+    {
+      "street": "Augustówek"
+    },
+    {
+      "street": "Augustówka"
+    },
+    {
+      "street": "AWF"
+    },
+    {
+      "street": "Babiego Lata"
+    },
+    {
+      "street": "Bacha"
+    },
+    {
+      "street": "Baczyńskiego"
+    },
+    {
+      "street": "Badylarska"
+    },
+    {
+      "street": "Bagnista"
+    },
+    {
+      "street": "Bajeczna"
+    },
+    {
+      "street": "Baletowa"
+    },
+    {
+      "street": "Baleya"
+    },
+    {
+      "street": "Balkonowa"
+    },
+    {
+      "street": "Banacha"
+    },
+    {
+      "street": "Banacha-Szpital"
+    },
+    {
+      "street": "Bandurskiego"
+    },
+    {
+      "street": "Bandurskiego i"
+    },
+    {
+      "street": "Bandurskiego II"
+    },
+    {
+      "street": "Baniocha"
+    },
+    {
+      "street": "Barei"
+    },
+    {
+      "street": "Barszczewska"
+    },
+    {
+      "street": "Bartłomieja"
+    },
+    {
+      "street": "Bartnicza"
+    },
+    {
+      "street": "Bartoszycka"
+    },
+    {
+      "street": "Bartycka"
+    },
+    {
+      "street": "Bartyki"
+    },
+    {
+      "street": "Baseny Inflancka"
+    },
+    {
+      "street": "Baszkówka"
+    },
+    {
+      "street": "Batalionów Chłopskich"
+    },
+    {
+      "street": "Batalionu Ak \"Bałtyk\""
+    },
+    {
+      "street": "Batalionu Miotła"
+    },
+    {
+      "street": "Batalionu Platerówek"
+    },
+    {
+      "street": "Batalionu Włochy"
+    },
+    {
+      "street": "Batorego"
+    },
+    {
+      "street": "Batumi"
+    },
+    {
+      "street": "Bazyliańska"
+    },
+    {
+      "street": "Bąkówka"
+    },
+    {
+      "street": "Beethovena"
+    },
+    {
+      "street": "Belgradzka"
+    },
+    {
+      "street": "Bellottiego"
+    },
+    {
+      "street": "Bełdan"
+    },
+    {
+      "street": "Bełzy"
+    },
+    {
+      "street": "Bemowo-Ratusz"
+    },
+    {
+      "street": "Beniaminów"
+    },
+    {
+      "street": "Beniaminówka"
+    },
+    {
+      "street": "Bennetta"
+    },
+    {
+      "street": "Berensona"
+    },
+    {
+      "street": "Berensona-Kanał"
+    },
+    {
+      "street": "Berestecka"
+    },
+    {
+      "street": "Berezyńska"
+    },
+    {
+      "street": "Betoniarnia"
+    },
+    {
+      "street": "Białobrzegi"
+    },
+    {
+      "street": "Białobrzeska"
+    },
+    {
+      "street": "Białołęka-Kanał"
+    },
+    {
+      "street": "Białołęka-Ratusz"
+    },
+    {
+      "street": "Białołęka Dworska"
+    },
+    {
+      "street": "Białostocka"
+    },
+    {
+      "street": "Białowiejska"
+    },
+    {
+      "street": "Biały Ług"
+    },
+    {
+      "street": "Biblioteka Narodowa"
+    },
+    {
+      "street": "Biblioteka Uniwersytecka"
+    },
+    {
+      "street": "Biedronki"
+    },
+    {
+      "street": "Bielany-Ratusz"
+    },
+    {
+      "street": "Bielańska"
+    },
+    {
+      "street": "Bielawa-OSP"
+    },
+    {
+      "street": "Bielawa-Pętla"
+    },
+    {
+      "street": "Bielawa I"
+    },
+    {
+      "street": "Bielszowicka"
+    },
+    {
+      "street": "Bieszczadzka"
+    },
+    {
+      "street": "Bieżuńska"
+    },
+    {
+      "street": "Bitwy Warszawskiej 1920 r."
+    },
+    {
+      "street": "Bliska"
+    },
+    {
+      "street": "Blizne Jasińskiego"
+    },
+    {
+      "street": "Blizne Łaszczyńskiego"
+    },
+    {
+      "street": "Błota"
+    },
+    {
+      "street": "Bobrowiec"
+    },
+    {
+      "street": "Bobrowiecka"
+    },
+    {
+      "street": "Bociana Czarnego"
+    },
+    {
+      "street": "Boczna"
+    },
+    {
+      "street": "Bodycha"
+    },
+    {
+      "street": "Boernerowo"
+    },
+    {
+      "street": "Bogatki"
+    },
+    {
+      "street": "Bogusławskiego"
+    },
+    {
+      "street": "Bohaterewicza"
+    },
+    {
+      "street": "Bohomolca"
+    },
+    {
+      "street": "Bohuna"
+    },
+    {
+      "street": "Bohuszewiczówny"
+    },
+    {
+      "street": "Bokserska"
+    },
+    {
+      "street": "Bolesława Krzywoustego"
+    },
+    {
+      "street": "Bolesława Śmiałego"
+    },
+    {
+      "street": "Bolesławicka"
+    },
+    {
+      "street": "Boleść"
+    },
+    {
+      "street": "Bonifraterska"
+    },
+    {
+      "street": "Bora-Komorowskiego"
+    },
+    {
+      "street": "Borki"
+    },
+    {
+      "street": "Borków"
+    },
+    {
+      "street": "Borowa"
+    },
+    {
+      "street": "Borowiecka"
+    },
+    {
+      "street": "Borowina I"
+    },
+    {
+      "street": "Borowina II"
+    },
+    {
+      "street": "Borowina III"
+    },
+    {
+      "street": "Boryny"
+    },
+    {
+      "street": "Boryszew"
+    },
+    {
+      "street": "Boryszewska"
+    },
+    {
+      "street": "Borzęcin Duży"
+    },
+    {
+      "street": "Borzęcin Duży-Szkoła"
+    },
+    {
+      "street": "Borzęcin Duży-Wieś"
+    },
+    {
+      "street": "Borzęcin Mały"
+    },
+    {
+      "street": "Braci Wagów"
+    },
+    {
+      "street": "Braci Zawadzkich"
+    },
+    {
+      "street": "Branickiego"
+    },
+    {
+      "street": "Brata Alberta"
+    },
+    {
+      "street": "Brazylijska"
+    },
+    {
+      "street": "Bronisława Czecha-Las"
+    },
+    {
+      "street": "Bronisze"
+    },
+    {
+      "street": "Bronowska"
+    },
+    {
+      "street": "Browarna"
+    },
+    {
+      "street": "Brożka"
+    },
+    {
+      "street": "Bródno-Podgrodzie"
+    },
+    {
+      "street": "Bródnowska"
+    },
+    {
+      "street": "Brukowa"
+    },
+    {
+      "street": "Bruszewska"
+    },
+    {
+      "street": "Bruzdowa-Kościół"
+    },
+    {
+      "street": "Brylowska"
+    },
+    {
+      "street": "Brześce"
+    },
+    {
+      "street": "Brzeziny"
+    },
+    {
+      "street": "Brzezińska"
+    },
+    {
+      "street": "Brzozowa"
+    },
+    {
+      "street": "Brzózek"
+    },
+    {
+      "street": "Buchalteryjna"
+    },
+    {
+      "street": "Buchnik"
+    },
+    {
+      "street": "Budexpo"
+    },
+    {
+      "street": "Budowlana"
+    },
+    {
+      "street": "Budzińskiej-Tylickiej"
+    },
+    {
+      "street": "Bukowiecka"
+    },
+    {
+      "street": "Bukowińska"
+    },
+    {
+      "street": "Bukowskiego"
+    },
+    {
+      "street": "Buków"
+    },
+    {
+      "street": "Buławy"
+    },
+    {
+      "street": "Buraków"
+    },
+    {
+      "street": "Bursztynowa-Szpital"
+    },
+    {
+      "street": "Buska"
+    },
+    {
+      "street": "Bydgoska"
+    },
+    {
+      "street": "Bysławska"
+    },
+    {
+      "street": "Bystra"
+    },
+    {
+      "street": "Bystrzycka"
+    },
+    {
+      "street": "Bytnara"
+    },
+    {
+      "street": "Calowa"
+    },
+    {
+      "street": "Cedrowa"
+    },
+    {
+      "street": "Ceglana"
+    },
+    {
+      "street": "Celulozy"
+    },
+    {
+      "street": "Cementownia"
+    },
+    {
+      "street": "Cendrowice"
+    },
+    {
+      "street": "Centrum"
+    },
+    {
+      "street": "Centrum Mody"
+    },
+    {
+      "street": "Centrum Nauki Kopernik"
+    },
+    {
+      "street": "Centrum Olimpijskie"
+    },
+    {
+      "street": "Centrum Onkologii"
+    },
+    {
+      "street": "Centrum Rehabilitacji"
+    },
+    {
+      "street": "Centrum Targowe"
+    },
+    {
+      "street": "Centrum Zdrowia Dziecka"
+    },
+    {
+      "street": "Ceramiczna"
+    },
+    {
+      "street": "CH Arkadia"
+    },
+    {
+      "street": "CH Blue City"
+    },
+    {
+      "street": "CH Błękitne"
+    },
+    {
+      "street": "Ch Łomianki"
+    },
+    {
+      "street": "CH Marki"
+    },
+    {
+      "street": "CH Promenada"
+    },
+    {
+      "street": "CH Reduta"
+    },
+    {
+      "street": "CH Stara Papiernia"
+    },
+    {
+      "street": "CH Targówek"
+    },
+    {
+      "street": "CH Wólka Kosowska"
+    },
+    {
+      "street": "Chabrowa"
+    },
+    {
+      "street": "Chełmońskiego"
+    },
+    {
+      "street": "Chełmska"
+    },
+    {
+      "street": "Chemiczna"
+    },
+    {
+      "street": "Chęcińska"
+    },
+    {
+      "street": "Chlubna"
+    },
+    {
+      "street": "Chłodna"
+    },
+    {
+      "street": "Chłodnia"
+    },
+    {
+      "street": "Chłopickiego"
+    },
+    {
+      "street": "Chmielna"
+    },
+    {
+      "street": "Chodakowska"
+    },
+    {
+      "street": "Chodecka"
+    },
+    {
+      "street": "Chodkiewicza"
+    },
+    {
+      "street": "Chomiczówka"
+    },
+    {
+      "street": "Chopina"
+    },
+    {
+      "street": "Choszczówka"
+    },
+    {
+      "street": "Chotomowska"
+    },
+    {
+      "street": "Chotomów"
+    },
+    {
+      "street": "Chrobrego"
+    },
+    {
+      "street": "Chrzanów"
+    },
+    {
+      "street": "Chudoby"
+    },
+    {
+      "street": "Chylice"
+    },
+    {
+      "street": "Chyliczki"
+    },
+    {
+      "street": "Chyliczkowska-Technikum"
+    },
+    {
+      "street": "Cicha"
+    },
+    {
+      "street": "Cieciszew"
+    },
+    {
+      "street": "Cieciszew-OSP"
+    },
+    {
+      "street": "Ciećwierza"
+    },
+    {
+      "street": "Ciepłownia Kawęczyn"
+    },
+    {
+      "street": "Ciepłownia Wola"
+    },
+    {
+      "street": "Cięciwa"
+    },
+    {
+      "street": "Ciołkosza"
+    },
+    {
+      "street": "Ciszewskiego"
+    },
+    {
+      "street": "Ciszyca"
+    },
+    {
+      "street": "Ciszyca II"
+    },
+    {
+      "street": "Cm.Bródnowski"
+    },
+    {
+      "street": "Cm.Ofiar Wojny"
+    },
+    {
+      "street": "Cm.Południowy-Brama Płd."
+    },
+    {
+      "street": "Cm.Południowy-Brama Wsch."
+    },
+    {
+      "street": "Cm.Południowy-Brama Zach."
+    },
+    {
+      "street": "Cm.Północny-Brama Gł."
+    },
+    {
+      "street": "Cm.Północny-Brama Płd."
+    },
+    {
+      "street": "Cm.Północny-Brama Płn."
+    },
+    {
+      "street": "Cm.Północny-Brama Zach."
+    },
+    {
+      "street": "Cm.Prawosławny"
+    },
+    {
+      "street": "Cm.Wawrzyszewski"
+    },
+    {
+      "street": "Cm.Włoski"
+    },
+    {
+      "street": "Cm.Wolski"
+    },
+    {
+      "street": "Cm.Żydowski"
+    },
+    {
+      "street": "Cmentarz"
+    },
+    {
+      "street": "Cmentarz 1920 r."
+    },
+    {
+      "street": "Cmentarz Marki"
+    },
+    {
+      "street": "Codzienna"
+    },
+    {
+      "street": "Conrada"
+    },
+    {
+      "street": "Conrada-Szkoła"
+    },
+    {
+      "street": "Coopera"
+    },
+    {
+      "street": "Coopera-Przychodnia"
+    },
+    {
+      "street": "Cukrownicza"
+    },
+    {
+      "street": "Cybernetyki"
+    },
+    {
+      "street": "Cygańska"
+    },
+    {
+      "street": "Cyklamenów"
+    },
+    {
+      "street": "Cylichowska"
+    },
+    {
+      "street": "Cynamonowa"
+    },
+    {
+      "street": "Cynkowa"
+    },
+    {
+      "street": "Cyraneczki"
+    },
+    {
+      "street": "Cytadela"
+    },
+    {
+      "street": "Czachówek-Las"
+    },
+    {
+      "street": "Czachówek-Szkoła"
+    },
+    {
+      "street": "Czajkowskiego"
+    },
+    {
+      "street": "Czapelska"
+    },
+    {
+      "street": "Czaplin"
+    },
+    {
+      "street": "Czaplinek I"
+    },
+    {
+      "street": "Czaplinek II"
+    },
+    {
+      "street": "Czarna"
+    },
+    {
+      "street": "Czarna Droga"
+    },
+    {
+      "street": "Czarna Struga"
+    },
+    {
+      "street": "Czarnej Olchy"
+    },
+    {
+      "street": "Czarnieckiego"
+    },
+    {
+      "street": "Czarnomorska"
+    },
+    {
+      "street": "Czarnów"
+    },
+    {
+      "street": "Czarnówka"
+    },
+    {
+      "street": "Czarny Las"
+    },
+    {
+      "street": "Czatów"
+    },
+    {
+      "street": "Cząstków Mazowiecki"
+    },
+    {
+      "street": "Cząstków Polski"
+    },
+    {
+      "street": "Cząstków Polski Wschód"
+    },
+    {
+      "street": "Czekanowska"
+    },
+    {
+      "street": "Czekoladowa"
+    },
+    {
+      "street": "Czeremchowa"
+    },
+    {
+      "street": "Czereśniowa"
+    },
+    {
+      "street": "Czerniakowska"
+    },
+    {
+      "street": "Czernidła"
+    },
+    {
+      "street": "Czersk-Zamek"
+    },
+    {
+      "street": "Czerwińska"
+    },
+    {
+      "street": "Czerwona Droga"
+    },
+    {
+      "street": "Czerwonych Beretów"
+    },
+    {
+      "street": "Człuchowska"
+    },
+    {
+      "street": "Czołchańskiego"
+    },
+    {
+      "street": "Czołgistów"
+    },
+    {
+      "street": "Czorsztyńska"
+    },
+    {
+      "street": "Czosnów"
+    },
+    {
+      "street": "Czumy"
+    },
+    {
+      "street": "Czwartaków"
+    },
+    {
+      "street": "Czynszowa"
+    },
+    {
+      "street": "Ćmielowska"
+    },
+    {
+      "street": "Ćwiklińskiej"
+    },
+    {
+      "street": "Dalibora"
+    },
+    {
+      "street": "Daniszewska"
+    },
+    {
+      "street": "Dankowicka"
+    },
+    {
+      "street": "Danusi"
+    },
+    {
+      "street": "Darwina"
+    },
+    {
+      "street": "Dawidy"
+    },
+    {
+      "street": "Dąbkowizna"
+    },
+    {
+      "street": "Dąbrowa Zachodnia"
+    },
+    {
+      "street": "Dąbrowskiego"
+    },
+    {
+      "street": "Dąbrówka"
+    },
+    {
+      "street": "Dąbrówka Szlachecka"
+    },
+    {
+      "street": "Dąbrówka Wiślana"
+    },
+    {
+      "street": "Deotymy"
+    },
+    {
+      "street": "Dębina"
+    },
+    {
+      "street": "Dębowa"
+    },
+    {
+      "street": "Dębów"
+    },
+    {
+      "street": "Dębówka"
+    },
+    {
+      "street": "Dębówka II"
+    },
+    {
+      "street": "Diamentowa"
+    },
+    {
+      "street": "Dickensa"
+    },
+    {
+      "street": "DKS Targówek"
+    },
+    {
+      "street": "Długa"
+    },
+    {
+      "street": "Długorzeczna"
+    },
+    {
+      "street": "Długosza"
+    },
+    {
+      "street": "Do Fortu"
+    },
+    {
+      "street": "Dobiesz"
+    },
+    {
+      "street": "Dobiesz II"
+    },
+    {
+      "street": "Dobka z Oleśnicy"
+    },
+    {
+      "street": "Dobosza"
+    },
+    {
+      "street": "Dobra"
+    },
+    {
+      "street": "Dojazdowa"
+    },
+    {
+      "street": "Dolina Służewiecka"
+    },
+    {
+      "street": "Dolna"
+    },
+    {
+      "street": "Dom Artystów"
+    },
+    {
+      "street": "Dom Kultury"
+    },
+    {
+      "street": "Dom Rencisty PAN"
+    },
+    {
+      "street": "Dom Samotnej Matki"
+    },
+    {
+      "street": "Domaniewska"
+    },
+    {
+      "street": "Domaniewska Office Park"
+    },
+    {
+      "street": "Dominikańska"
+    },
+    {
+      "street": "Dorodna"
+    },
+    {
+      "street": "Dostawcza"
+    },
+    {
+      "street": "Draceny"
+    },
+    {
+      "street": "Drewnicka"
+    },
+    {
+      "street": "Drobiarska"
+    },
+    {
+      "street": "Drogowa"
+    },
+    {
+      "street": "Drogowców"
+    },
+    {
+      "street": "Drohicka"
+    },
+    {
+      "street": "Drohobycka"
+    },
+    {
+      "street": "Drzewieckiego"
+    },
+    {
+      "street": "Drzeworytników"
+    },
+    {
+      "street": "DS Riviera"
+    },
+    {
+      "street": "Duchnów"
+    },
+    {
+      "street": "Duczki-Szkoła"
+    },
+    {
+      "street": "Dunikowskiego"
+    },
+    {
+      "street": "Dw.Centralny"
+    },
+    {
+      "street": "Dw.Gdański"
+    },
+    {
+      "street": "Dw.Wileński"
+    },
+    {
+      "street": "Dw.Wschodni (Kijowska)"
+    },
+    {
+      "street": "Dw.Wschodni (Lubelska)"
+    },
+    {
+      "street": "Dw.Zachodni"
+    },
+    {
+      "street": "Dw.Zachodni (Tunelowa)"
+    },
+    {
+      "street": "Dwernickiego"
+    },
+    {
+      "street": "Dworcowa"
+    },
+    {
+      "street": "Dworkowa"
+    },
+    {
+      "street": "Dworska"
+    },
+    {
+      "street": "Dworzec Gdański"
+    },
+    {
+      "street": "Dyrekcja FSO"
+    },
+    {
+      "street": "Dywizjonu 303"
+    },
+    {
+      "street": "Działkowa"
+    },
+    {
+      "street": "Działyńczyków"
+    },
+    {
+      "street": "Dziechciniec"
+    },
+    {
+      "street": "Dziechciniec-Kolonia"
+    },
+    {
+      "street": "Dzieci Warszawy"
+    },
+    {
+      "street": "Dziekanów Leśny"
+    },
+    {
+      "street": "Dziekanów Nowy Wschód"
+    },
+    {
+      "street": "Dziekanów Nowy Zachód"
+    },
+    {
+      "street": "Dziekanów Polski Centrum"
+    },
+    {
+      "street": "Dziekanów Polski Wschód"
+    },
+    {
+      "street": "Dziekanów Polski Zachód"
+    },
+    {
+      "street": "Dziekanówek"
+    },
+    {
+      "street": "Dzielna"
+    },
+    {
+      "street": "Dzielnicowa"
+    },
+    {
+      "street": "Dzierzgońska"
+    },
+    {
+      "street": "Dzierżoniowska"
+    },
+    {
+      "street": "Dziewanowska"
+    },
+    {
+      "street": "Dzięcioła"
+    },
+    {
+      "street": "Dzika"
+    },
+    {
+      "street": "Dzikiej Róży"
+    },
+    {
+      "street": "EC Siekierki"
+    },
+    {
+      "street": "EC Żerań"
+    },
+    {
+      "street": "Echa Leśne"
+    },
+    {
+      "street": "Edisona"
+    },
+    {
+      "street": "Ekologiczna"
+    },
+    {
+      "street": "Ekspresowa"
+    },
+    {
+      "street": "Elbląska"
+    },
+    {
+      "street": "Elekcyjna"
+    },
+    {
+      "street": "Elsnerów"
+    },
+    {
+      "street": "Emilii Gierczak"
+    },
+    {
+      "street": "Emilii Plater"
+    },
+    {
+      "street": "Energetyczna"
+    },
+    {
+      "street": "Erazma z Zakroczymia"
+    },
+    {
+      "street": "Eskulapów"
+    },
+    {
+      "street": "Esperanto"
+    },
+    {
+      "street": "Estrady"
+    },
+    {
+      "street": "Etiudy Rewolucyjnej"
+    },
+    {
+      "street": "Europejska"
+    },
+    {
+      "street": "Fabryczna"
+    },
+    {
+      "street": "Fabryka Pomp"
+    },
+    {
+      "street": "Falencka"
+    },
+    {
+      "street": "Falenica"
+    },
+    {
+      "street": "Falenty-Osiedle"
+    },
+    {
+      "street": "Falenty Duże"
+    },
+    {
+      "street": "Falenty Nowe"
+    },
+    {
+      "street": "Faradaya"
+    },
+    {
+      "street": "Farbiarska"
+    },
+    {
+      "street": "Fieldorfa"
+    },
+    {
+      "street": "Figowa"
+    },
+    {
+      "street": "Flamenco"
+    },
+    {
+      "street": "Fletniowa"
+    },
+    {
+      "street": "Floriana"
+    },
+    {
+      "street": "Fogga"
+    },
+    {
+      "street": "Foksal"
+    },
+    {
+      "street": "Fort Bema"
+    },
+    {
+      "street": "Fort Blizne"
+    },
+    {
+      "street": "Fort Radiowo"
+    },
+    {
+      "street": "Fort Wawrzyszew"
+    },
+    {
+      "street": "Fort Wola"
+    },
+    {
+      "street": "Fortowa"
+    },
+    {
+      "street": "Frachtowa"
+    },
+    {
+      "street": "Franciszkańska"
+    },
+    {
+      "street": "Francuska"
+    },
+    {
+      "street": "Gajowa"
+    },
+    {
+      "street": "Galla Anonima"
+    },
+    {
+      "street": "Garbatka"
+    },
+    {
+      "street": "Garwolińska"
+    },
+    {
+      "street": "Gassy"
+    },
+    {
+      "street": "Gassy-Pętla"
+    },
+    {
+      "street": "Gawronia"
+    },
+    {
+      "street": "Gazownia"
+    },
+    {
+      "street": "Gąsek"
+    },
+    {
+      "street": "Gąsocińska"
+    },
+    {
+      "street": "Gdecka"
+    },
+    {
+      "street": "gen.Kutrzeby"
+    },
+    {
+      "street": "gen.Maczka"
+    },
+    {
+      "street": "gen.Roi"
+    },
+    {
+      "street": "gen.Zajączka"
+    },
+    {
+      "street": "Geodezyjna"
+    },
+    {
+      "street": "Gerbera"
+    },
+    {
+      "street": "Gierdziejewskiego"
+    },
+    {
+      "street": "Gilarska"
+    },
+    {
+      "street": "Gizów"
+    },
+    {
+      "street": "Glebowa"
+    },
+    {
+      "street": "Glinianka"
+    },
+    {
+      "street": "Głębocka"
+    },
+    {
+      "street": "Głogi"
+    },
+    {
+      "street": "Głosków-Letnisko"
+    },
+    {
+      "street": "Głosków-Szkoła"
+    },
+    {
+      "street": "Głosków-Zielone"
+    },
+    {
+      "street": "Głowackiego"
+    },
+    {
+      "street": "Główna"
+    },
+    {
+      "street": "Gminna"
+    },
+    {
+      "street": "Gniewkowska"
+    },
+    {
+      "street": "Gocław"
+    },
+    {
+      "street": "Gocławek"
+    },
+    {
+      "street": "Gocławek Wschodni"
+    },
+    {
+      "street": "Gocławska"
+    },
+    {
+      "street": "GOK"
+    },
+    {
+      "street": "Goleszowska"
+    },
+    {
+      "street": "Golędzinów"
+    },
+    {
+      "street": "Golfowa"
+    },
+    {
+      "street": "Gołaszewska"
+    },
+    {
+      "street": "Gołębia"
+    },
+    {
+      "street": "Gołkowska"
+    },
+    {
+      "street": "Gołków-Letnisko"
+    },
+    {
+      "street": "Gołków-Wieś"
+    },
+    {
+      "street": "Gontarska"
+    },
+    {
+      "street": "Goraszewska"
+    },
+    {
+      "street": "Gorzykowska"
+    },
+    {
+      "street": "Gościeradowska"
+    },
+    {
+      "street": "Gotarda"
+    },
+    {
+      "street": "Góralska"
+    },
+    {
+      "street": "Góraszka"
+    },
+    {
+      "street": "Górecka"
+    },
+    {
+      "street": "Górki"
+    },
+    {
+      "street": "Górna"
+    },
+    {
+      "street": "Górnośląska"
+    },
+    {
+      "street": "Grabalówki"
+    },
+    {
+      "street": "Grabina"
+    },
+    {
+      "street": "Grabów"
+    },
+    {
+      "street": "Graniczka"
+    },
+    {
+      "street": "Graniczna"
+    },
+    {
+      "street": "Grawerska"
+    },
+    {
+      "street": "Grenadierów"
+    },
+    {
+      "street": "Grenady"
+    },
+    {
+      "street": "Grochowa"
+    },
+    {
+      "street": "Grodkowska"
+    },
+    {
+      "street": "Grodzisk"
+    },
+    {
+      "street": "Grodzisk-Kościół"
+    },
+    {
+      "street": "Gromadzka"
+    },
+    {
+      "street": "Groszówka"
+    },
+    {
+      "street": "Groty"
+    },
+    {
+      "street": "Gródek"
+    },
+    {
+      "street": "Grupy Ak \"Północ\""
+    },
+    {
+      "street": "Gruszy"
+    },
+    {
+      "street": "Gryczana"
+    },
+    {
+      "street": "Gryfitów"
+    },
+    {
+      "street": "Grzegorzewskiej"
+    },
+    {
+      "street": "Grzybowa"
+    },
+    {
+      "street": "Grzybowska"
+    },
+    {
+      "street": "Grzymalitów"
+    },
+    {
+      "street": "Grzymały-Sokołowskiego"
+    },
+    {
+      "street": "GUS"
+    },
+    {
+      "street": "Gwarków"
+    },
+    {
+      "street": "Gwarna"
+    },
+    {
+      "street": "Gwiaździsta"
+    },
+    {
+      "street": "Habdzin I"
+    },
+    {
+      "street": "Habdzin II"
+    },
+    {
+      "street": "Habdzin III"
+    },
+    {
+      "street": "Habdzin IV"
+    },
+    {
+      "street": "Hala Kopińska"
+    },
+    {
+      "street": "Hala Mirowska"
+    },
+    {
+      "street": "Hala Sportowa Bemowo"
+    },
+    {
+      "street": "Hala Wola"
+    },
+    {
+      "street": "Hala Znicz"
+    },
+    {
+      "street": "Hale Banacha"
+    },
+    {
+      "street": "Hallera"
+    },
+    {
+      "street": "Handlowa"
+    },
+    {
+      "street": "Hanki Ordonówny"
+    },
+    {
+      "street": "Harfowa"
+    },
+    {
+      "street": "Harnasie"
+    },
+    {
+      "street": "Hassa"
+    },
+    {
+      "street": "Henryka Brodatego"
+    },
+    {
+      "street": "Henryka Probusa"
+    },
+    {
+      "street": "Henryków"
+    },
+    {
+      "street": "Henryków-Urocze"
+    },
+    {
+      "street": "Herbsta"
+    },
+    {
+      "street": "Hetmańska"
+    },
+    {
+      "street": "Hipodrom"
+    },
+    {
+      "street": "Hipolitowska"
+    },
+    {
+      "street": "Hłaski"
+    },
+    {
+      "street": "Hołubcowa"
+    },
+    {
+      "street": "Hoovera"
+    },
+    {
+      "street": "Horbaczewskiego"
+    },
+    {
+      "street": "Hornówek"
+    },
+    {
+      "street": "Hortensji"
+    },
+    {
+      "street": "Hoserów"
+    },
+    {
+      "street": "Hospicjum Onkologiczne"
+    },
+    {
+      "street": "Hotel Bristol"
+    },
+    {
+      "street": "Hotelowa"
+    },
+    {
+      "street": "Hoża"
+    },
+    {
+      "street": "Hrabska Droga"
+    },
+    {
+      "street": "Hubala"
+    },
+    {
+      "street": "Hubala-Dobrzańskiego"
+    },
+    {
+      "street": "Husarska"
+    },
+    {
+      "street": "Hutnicza"
+    },
+    {
+      "street": "Hynka"
+    },
+    {
+      "street": "ICDS"
+    },
+    {
+      "street": "Idzikowskiego"
+    },
+    {
+      "street": "Imbirowa"
+    },
+    {
+      "street": "Imielin"
+    },
+    {
+      "street": "IMUZ"
+    },
+    {
+      "street": "Indiry Gandhi"
+    },
+    {
+      "street": "Inflancka"
+    },
+    {
+      "street": "Inowłodzka"
+    },
+    {
+      "street": "Instalatorów"
+    },
+    {
+      "street": "Instalatorów-KAM"
+    },
+    {
+      "street": "Instruktorska"
+    },
+    {
+      "street": "Instytut Ekologii PAN"
+    },
+    {
+      "street": "Instytut Energetyki"
+    },
+    {
+      "street": "Instytut Fizyki"
+    },
+    {
+      "street": "Instytut Hematologii"
+    },
+    {
+      "street": "Instytut Kardiologii"
+    },
+    {
+      "street": "Instytut Lotnictwa"
+    },
+    {
+      "street": "Instytut Neurologii"
+    },
+    {
+      "street": "Instytut Reumatologii"
+    },
+    {
+      "street": "Insurekcji"
+    },
+    {
+      "street": "Internetowa"
+    },
+    {
+      "street": "Inżynierska"
+    },
+    {
+      "street": "Iskry"
+    },
+    {
+      "street": "Iwicka"
+    },
+    {
+      "street": "Iwiczna"
+    },
+    {
+      "street": "IX Poprzeczna"
+    },
+    {
+      "street": "Izabelińska"
+    },
+    {
+      "street": "Izbicka-Cmentarz"
+    },
+    {
+      "street": "Jabłoniowa"
+    },
+    {
+      "street": "Jachowicza"
+    },
+    {
+      "street": "Jachtowa"
+    },
+    {
+      "street": "Jadwisin"
+    },
+    {
+      "street": "Jadźwingów"
+    },
+    {
+      "street": "Jagiellońska"
+    },
+    {
+      "street": "Jagielska"
+    },
+    {
+      "street": "Jagiełły"
+    },
+    {
+      "street": "Jałowcowa"
+    },
+    {
+      "street": "Jana Kazimierza"
+    },
+    {
+      "street": "Janczewice"
+    },
+    {
+      "street": "Janin"
+    },
+    {
+      "street": "Janki"
+    },
+    {
+      "street": "Janki Małe"
+    },
+    {
+      "street": "Janowskiego"
+    },
+    {
+      "street": "Janów"
+    },
+    {
+      "street": "Januszewicza"
+    },
+    {
+      "street": "Jara"
+    },
+    {
+      "street": "Jaracza"
+    },
+    {
+      "street": "Jarosławska"
+    },
+    {
+      "street": "Jarzębinowa"
+    },
+    {
+      "street": "Jasielska"
+    },
+    {
+      "street": "Jasna"
+    },
+    {
+      "street": "Jastrzębiec"
+    },
+    {
+      "street": "Jaśminowa"
+    },
+    {
+      "street": "Jawczyce"
+    },
+    {
+      "street": "Jaworówka"
+    },
+    {
+      "street": "Jazgarzew-Szkoła"
+    },
+    {
+      "street": "Jerzego"
+    },
+    {
+      "street": "Jesiennych Liści"
+    },
+    {
+      "street": "Jesionowa"
+    },
+    {
+      "street": "Jesiotrowa"
+    },
+    {
+      "street": "Jesówka"
+    },
+    {
+      "street": "Jeziorki Płn."
+    },
+    {
+      "street": "Jeziorko Czerniakowskie"
+    },
+    {
+      "street": "Jeziorowa"
+    },
+    {
+      "street": "Jodłowa"
+    },
+    {
+      "street": "Joliot-Curie"
+    },
+    {
+      "street": "Jontka"
+    },
+    {
+      "street": "Jórskiego"
+    },
+    {
+      "street": "Józefów"
+    },
+    {
+      "street": "Juhasów"
+    },
+    {
+      "street": "Julianowska"
+    },
+    {
+      "street": "Julianowska-Cmentarz"
+    },
+    {
+      "street": "Julianów"
+    },
+    {
+      "street": "Jurajska"
+    },
+    {
+      "street": "Juranda ze Spychowa"
+    },
+    {
+      "street": "Juranda ze Spychowa-szkoła"
+    },
+    {
+      "street": "Kabaty"
+    },
+    {
+      "street": "Kabaty-STP"
+    },
+    {
+      "street": "Kaczeńców"
+    },
+    {
+      "street": "Kadetów"
+    },
+    {
+      "street": "Kadetów-Kościół"
+    },
+    {
+      "street": "Kadetów-Szkoła"
+    },
+    {
+      "street": "Kaflowa"
+    },
+    {
+      "street": "Kajetany"
+    },
+    {
+      "street": "Kajki"
+    },
+    {
+      "street": "Kakowskiego"
+    },
+    {
+      "street": "Kalinowa Droga"
+    },
+    {
+      "street": "Kaloryczna"
+    },
+    {
+      "street": "Kałuszyn"
+    },
+    {
+      "street": "Kameliowa"
+    },
+    {
+      "street": "Kameralna"
+    },
+    {
+      "street": "Kamienna"
+    },
+    {
+      "street": "Kamiennej Górki"
+    },
+    {
+      "street": "Kamińskiego"
+    },
+    {
+      "street": "Kampinos"
+    },
+    {
+      "street": "Kampinoska"
+    },
+    {
+      "street": "Kamykowa"
+    },
+    {
+      "street": "Kanał Bródnowski"
+    },
+    {
+      "street": "Kanał Gocławski"
+    },
+    {
+      "street": "Kanał Nowe Ujście"
+    },
+    {
+      "street": "Kanał Żerański"
+    },
+    {
+      "street": "Kanarkowa"
+    },
+    {
+      "street": "Kapeli"
+    },
+    {
+      "street": "Kapitulna"
+    },
+    {
+      "street": "Kaputy"
+    },
+    {
+      "street": "Karabeli"
+    },
+    {
+      "street": "Karczocha"
+    },
+    {
+      "street": "Karczunkowska"
+    },
+    {
+      "street": "Karłowicza"
+    },
+    {
+      "street": "Karolin"
+    },
+    {
+      "street": "Karolkowa"
+    },
+    {
+      "street": "Karowa"
+    },
+    {
+      "street": "Kartezjusza"
+    },
+    {
+      "street": "Kasprowicza"
+    },
+    {
+      "street": "Kasztanowa"
+    },
+    {
+      "street": "Katiuszy"
+    },
+    {
+      "street": "Katowicka"
+    },
+    {
+      "street": "Kawęczyn"
+    },
+    {
+      "street": "Kawęczyn Dolny"
+    },
+    {
+      "street": "Kawęczyn II"
+    },
+    {
+      "street": "Kawęczynek I"
+    },
+    {
+      "street": "Kawęczynek II"
+    },
+    {
+      "street": "Kawęczyńska-Bazylika"
+    },
+    {
+      "street": "Kazimierza Odnowiciela"
+    },
+    {
+      "street": "Kazimierzowska"
+    },
+    {
+      "street": "Kazubów"
+    },
+    {
+      "street": "Kąpielowa"
+    },
+    {
+      "street": "Kąty Grodziskie"
+    },
+    {
+      "street": "Kąty Węgierskie"
+    },
+    {
+      "street": "Keniga"
+    },
+    {
+      "street": "Kędzierówka"
+    },
+    {
+      "street": "Kępa Oborska I"
+    },
+    {
+      "street": "Kępa Oborska II"
+    },
+    {
+      "street": "Kępa Okrzewska"
+    },
+    {
+      "street": "Kępa Okrzewska-Cmentarz"
+    },
+    {
+      "street": "Kępa Zawadowska"
+    },
+    {
+      "street": "Kickiego"
+    },
+    {
+      "street": "Kielecka"
+    },
+    {
+      "street": "Kiełpin"
+    },
+    {
+      "street": "Kiełpin-Cmentarz"
+    },
+    {
+      "street": "Kiepury"
+    },
+    {
+      "street": "Kierbedzia"
+    },
+    {
+      "street": "Kijowska"
+    },
+    {
+      "street": "Kilińskiego"
+    },
+    {
+      "street": "Kino Baśń"
+    },
+    {
+      "street": "Kino Femina"
+    },
+    {
+      "street": "Kinowa"
+    },
+    {
+      "street": "Kisielewskiego"
+    },
+    {
+      "street": "Klamrowa"
+    },
+    {
+      "street": "Klarysew"
+    },
+    {
+      "street": "Klarysewska"
+    },
+    {
+      "street": "Klasyków"
+    },
+    {
+      "street": "Klasztorna"
+    },
+    {
+      "street": "Klaudyn"
+    },
+    {
+      "street": "Klaudyny"
+    },
+    {
+      "street": "Klemensiewicza"
+    },
+    {
+      "street": "Klimatyczna"
+    },
+    {
+      "street": "Klimontowska"
+    },
+    {
+      "street": "Klub Lira"
+    },
+    {
+      "street": "Kłobucka"
+    },
+    {
+      "street": "KMŁ"
+    },
+    {
+      "street": "Kobiałka"
+    },
+    {
+      "street": "Kobiałka-Szkoła"
+    },
+    {
+      "street": "Kobyłka"
+    },
+    {
+      "street": "Kobyłka-Ossów"
+    },
+    {
+      "street": "Kochanowskiego"
+    },
+    {
+      "street": "Kociszewskich"
+    },
+    {
+      "street": "Kocjana"
+    },
+    {
+      "street": "Kocjana-Bocznica"
+    },
+    {
+      "street": "Kocjana-Sądy"
+    },
+    {
+      "street": "Koczargi Nowe"
+    },
+    {
+      "street": "Koczargi Stare"
+    },
+    {
+      "street": "Kolarska"
+    },
+    {
+      "street": "Kolejka Piaseczyńska"
+    },
+    {
+      "street": "Kolejowa"
+    },
+    {
+      "street": "Kolibra"
+    },
+    {
+      "street": "Kolonia Helenów"
+    },
+    {
+      "street": "Kolonia Lesznowola"
+    },
+    {
+      "street": "Kolonia Makówko"
+    },
+    {
+      "street": "Kolonia Pod Lasem"
+    },
+    {
+      "street": "Kolonia Sobików"
+    },
+    {
+      "street": "Kolonia Warszawska"
+    },
+    {
+      "street": "Kolumba"
+    },
+    {
+      "street": "Kołłątaja"
+    },
+    {
+      "street": "Koło"
+    },
+    {
+      "street": "Kołobrzeska"
+    },
+    {
+      "street": "Kołowa"
+    },
+    {
+      "street": "Kombajnistów"
+    },
+    {
+      "street": "Komety"
+    },
+    {
+      "street": "Komitetu Obrony Robotników"
+    },
+    {
+      "street": "Komornica-Szkoła"
+    },
+    {
+      "street": "Komorowska"
+    },
+    {
+      "street": "Komorowska-Hotel"
+    },
+    {
+      "street": "Kompasowa"
+    },
+    {
+      "street": "Komputerowa"
+    },
+    {
+      "street": "Konarskiego"
+    },
+    {
+      "street": "Koncertowa"
+    },
+    {
+      "street": "Kondracka"
+    },
+    {
+      "street": "Kondratowicza"
+    },
+    {
+      "street": "Konduktorska"
+    },
+    {
+      "street": "Konik Nowy"
+    },
+    {
+      "street": "Konopacka"
+    },
+    {
+      "street": "Konopnickiej"
+    },
+    {
+      "street": "Konotopska"
+    },
+    {
+      "street": "Konstruktorska"
+    },
+    {
+      "street": "Konwaliowa"
+    },
+    {
+      "street": "Konwiktorska"
+    },
+    {
+      "street": "Koński Jar"
+    },
+    {
+      "street": "Kopcińskiego"
+    },
+    {
+      "street": "Kopernika"
+    },
+    {
+      "street": "Kopijników"
+    },
+    {
+      "street": "Koprki"
+    },
+    {
+      "street": "Koralowych Dębów"
+    },
+    {
+      "street": "Korbońskiego"
+    },
+    {
+      "street": "Korczaka"
+    },
+    {
+      "street": "Kordeckiego"
+    },
+    {
+      "street": "Kordiana"
+    },
+    {
+      "street": "Korkowa-Cmentarz"
+    },
+    {
+      "street": "Korotyńskiego"
+    },
+    {
+      "street": "Korsaka"
+    },
+    {
+      "street": "Kosaćcowa"
+    },
+    {
+      "street": "Kosiarzy"
+    },
+    {
+      "street": "Kosmowska I"
+    },
+    {
+      "street": "Kosmowska II"
+    },
+    {
+      "street": "Kosodrzewiny"
+    },
+    {
+      "street": "Kosów"
+    },
+    {
+      "street": "Kossaka"
+    },
+    {
+      "street": "Kostowiec"
+    },
+    {
+      "street": "Kostrzewskiego"
+    },
+    {
+      "street": "Kosynierów"
+    },
+    {
+      "street": "Koszałka Opałka"
+    },
+    {
+      "street": "Koszykowa"
+    },
+    {
+      "street": "Kościeliska"
+    },
+    {
+      "street": "Kościelna"
+    },
+    {
+      "street": "Kościelna-OSP"
+    },
+    {
+      "street": "Kościół"
+    },
+    {
+      "street": "Kościuszki"
+    },
+    {
+      "street": "Kościuszki-Szkoła"
+    },
+    {
+      "street": "Kotliny"
+    },
+    {
+      "street": "Kozaków"
+    },
+    {
+      "street": "Kozielska"
+    },
+    {
+      "street": "Koźmińska"
+    },
+    {
+      "street": "Kórnicka"
+    },
+    {
+      "street": "Krakowiaków"
+    },
+    {
+      "street": "Krakowiany"
+    },
+    {
+      "street": "Krakusa"
+    },
+    {
+      "street": "Krańcowa"
+    },
+    {
+      "street": "Krasickiego"
+    },
+    {
+      "street": "Krasnowola"
+    },
+    {
+      "street": "Kraśnicka"
+    },
+    {
+      "street": "Krokusów"
+    },
+    {
+      "street": "Krokwi"
+    },
+    {
+      "street": "Królewska"
+    },
+    {
+      "street": "Królika"
+    },
+    {
+      "street": "Królikarnia"
+    },
+    {
+      "street": "Królowej Bony"
+    },
+    {
+      "street": "Królowej Marysieńki"
+    },
+    {
+      "street": "Krótka"
+    },
+    {
+      "street": "Krubin"
+    },
+    {
+      "street": "Krucza"
+    },
+    {
+      "street": "Kryniczna"
+    },
+    {
+      "street": "Krynoliny"
+    },
+    {
+      "street": "Krzaki Czaplinkowskie"
+    },
+    {
+      "street": "Krzesiwa"
+    },
+    {
+      "street": "Krzywickiego"
+    },
+    {
+      "street": "Krzyżanowskiego"
+    },
+    {
+      "street": "KS Polonez"
+    },
+    {
+      "street": "KS Polonia"
+    },
+    {
+      "street": "ks.Czartoryskiej"
+    },
+    {
+      "street": "ks.Malinowskiego"
+    },
+    {
+      "street": "ks.Popiełuszki"
+    },
+    {
+      "street": "ks.Sitnika"
+    },
+    {
+      "street": "ks.Skorupki"
+    },
+    {
+      "street": "ks.Słojewskiego"
+    },
+    {
+      "street": "ks.Szulczyka"
+    },
+    {
+      "street": "Ksawerów"
+    },
+    {
+      "street": "Książąt Mazowieckich"
+    },
+    {
+      "street": "Książęca"
+    },
+    {
+      "street": "Księcia Bolesława"
+    },
+    {
+      "street": "Księcia Ziemowita"
+    },
+    {
+      "street": "Księżnej Anny"
+    },
+    {
+      "street": "Księżycowa"
+    },
+    {
+      "street": "Ku Słońcu"
+    },
+    {
+      "street": "Ku Wiśle"
+    },
+    {
+      "street": "Kubusia Puchatka"
+    },
+    {
+      "street": "Kukułcza"
+    },
+    {
+      "street": "Kuleszówka"
+    },
+    {
+      "street": "Kulskiego"
+    },
+    {
+      "street": "Kupiecka"
+    },
+    {
+      "street": "Kusocińskiego"
+    },
+    {
+      "street": "Kuźnicy Kołłątajowskiej"
+    },
+    {
+      "street": "Kwatery Głównej"
+    },
+    {
+      "street": "Kwiatowa"
+    },
+    {
+      "street": "Kwiatów Polnych"
+    },
+    {
+      "street": "Kwirynów"
+    },
+    {
+      "street": "Kwitnąca"
+    },
+    {
+      "street": "Kwitnącej Akacji"
+    },
+    {
+      "street": "Lalki"
+    },
+    {
+      "street": "Lamina"
+    },
+    {
+      "street": "Lanciego"
+    },
+    {
+      "street": "Langiewicza"
+    },
+    {
+      "street": "Las Bielański"
+    },
+    {
+      "street": "Lasek na Kole"
+    },
+    {
+      "street": "Latchorzew"
+    },
+    {
+      "street": "Latoszki"
+    },
+    {
+      "street": "Laurowa"
+    },
+    {
+      "street": "Lawinowa"
+    },
+    {
+      "street": "Lazurowa"
+    },
+    {
+      "street": "Lebiodowa"
+    },
+    {
+      "street": "Legia-Stadion"
+    },
+    {
+      "street": "Legionowa"
+    },
+    {
+      "street": "Legionowo"
+    },
+    {
+      "street": "Legionowo Piaski"
+    },
+    {
+      "street": "Legionowo Przystanek"
+    },
+    {
+      "street": "Legionów"
+    },
+    {
+      "street": "Lektykarska"
+    },
+    {
+      "street": "Lelewela"
+    },
+    {
+      "street": "Lercha"
+    },
+    {
+      "street": "Leszczynka"
+    },
+    {
+      "street": "Leszczyńska"
+    },
+    {
+      "street": "Leszczyńskiego"
+    },
+    {
+      "street": "Leszno"
+    },
+    {
+      "street": "Leszno-GS"
+    },
+    {
+      "street": "Lesznowola"
+    },
+    {
+      "street": "Lesznowola-Pole"
+    },
+    {
+      "street": "Leszyckiego"
+    },
+    {
+      "street": "Leśna"
+    },
+    {
+      "street": "Leśnej Polanki"
+    },
+    {
+      "street": "Leśniakowizna"
+    },
+    {
+      "street": "Leśniczówka"
+    },
+    {
+      "street": "Leśnych Boginek"
+    },
+    {
+      "street": "Lewinów"
+    },
+    {
+      "street": "Leżajska"
+    },
+    {
+      "street": "Liliowa"
+    },
+    {
+      "street": "Limanowskiego"
+    },
+    {
+      "street": "Limby"
+    },
+    {
+      "street": "Lindleya"
+    },
+    {
+      "street": "Linin"
+    },
+    {
+      "street": "Linin-Osiedle"
+    },
+    {
+      "street": "Lipinki"
+    },
+    {
+      "street": "Lipińska"
+    },
+    {
+      "street": "Lipków"
+    },
+    {
+      "street": "Lipowa"
+    },
+    {
+      "street": "Lipowczana"
+    },
+    {
+      "street": "Lipowo"
+    },
+    {
+      "street": "Lipy"
+    },
+    {
+      "street": "Listonoszy"
+    },
+    {
+      "street": "Litewska"
+    },
+    {
+      "street": "Lniana"
+    },
+    {
+      "street": "Lokajskiego"
+    },
+    {
+      "street": "Lokalna"
+    },
+    {
+      "street": "Lotnisko Chopina"
+    },
+    {
+      "street": "Lotnisko Chopina-Odloty"
+    },
+    {
+      "street": "Lotnisko Chopina-Przyloty"
+    },
+    {
+      "street": "Lubelska"
+    },
+    {
+      "street": "Lubiczów"
+    },
+    {
+      "street": "Lucerny"
+    },
+    {
+      "street": "Lusińska"
+    },
+    {
+      "street": "Lutosławskiego"
+    },
+    {
+      "street": "Lwowska"
+    },
+    {
+      "street": "Ładna"
+    },
+    {
+      "street": "Łady"
+    },
+    {
+      "street": "Łady-Szkoła"
+    },
+    {
+      "street": "Łagiewnicka"
+    },
+    {
+      "street": "Łanowa"
+    },
+    {
+      "street": "Łasaka"
+    },
+    {
+      "street": "Ławki"
+    },
+    {
+      "street": "Łazienki Królewskie"
+    },
+    {
+      "street": "Łazy"
+    },
+    {
+      "street": "Łazy-Szkoła"
+    },
+    {
+      "street": "Łaźniewska"
+    },
+    {
+      "street": "Łączyny"
+    },
+    {
+      "street": "Łąki"
+    },
+    {
+      "street": "Łąkowa"
+    },
+    {
+      "street": "Łbiska"
+    },
+    {
+      "street": "Łbiska-Szkoła"
+    },
+    {
+      "street": "Łęg"
+    },
+    {
+      "street": "Łojewska"
+    },
+    {
+      "street": "Łokietka"
+    },
+    {
+      "street": "Łomianki-Centrum"
+    },
+    {
+      "street": "Łomianki-Szkoła"
+    },
+    {
+      "street": "Łomna-Cmentarz"
+    },
+    {
+      "street": "Łomna-Kościół"
+    },
+    {
+      "street": "Łomna-Las"
+    },
+    {
+      "street": "Łomna-Szkoła"
+    },
+    {
+      "street": "Łomna Wschód"
+    },
+    {
+      "street": "Łomna Zachód"
+    },
+    {
+      "street": "Łomżyńska"
+    },
+    {
+      "street": "Łopuszańska"
+    },
+    {
+      "street": "Łososiowa"
+    },
+    {
+      "street": "Łowcza"
+    },
+    {
+      "street": "Łowicka"
+    },
+    {
+      "street": "Łoziska"
+    },
+    {
+      "street": "Łubinowa"
+    },
+    {
+      "street": "Łubna"
+    },
+    {
+      "street": "Łucznicza"
+    },
+    {
+      "street": "Łukasiewicza"
+    },
+    {
+      "street": "Łukasińskiego"
+    },
+    {
+      "street": "Łukaszczyka"
+    },
+    {
+      "street": "Łukowa"
+    },
+    {
+      "street": "Łukowska"
+    },
+    {
+      "street": "Łyczyn"
+    },
+    {
+      "street": "Łyczyńska"
+    },
+    {
+      "street": "Łysakowska"
+    },
+    {
+      "street": "Macierzanki"
+    },
+    {
+      "street": "Maczka"
+    },
+    {
+      "street": "Madalińskiego"
+    },
+    {
+      "street": "Madalińskiego-Szpital"
+    },
+    {
+      "street": "Magdalenka"
+    },
+    {
+      "street": "Magellana"
+    },
+    {
+      "street": "Magiera"
+    },
+    {
+      "street": "Magistracka"
+    },
+    {
+      "street": "Magnolii"
+    },
+    {
+      "street": "Majdan"
+    },
+    {
+      "street": "Majdan-Stacja Paliw"
+    },
+    {
+      "street": "Majerankowa"
+    },
+    {
+      "street": "Majowa"
+    },
+    {
+      "street": "Maklakiewicza"
+    },
+    {
+      "street": "Makolągwy"
+    },
+    {
+      "street": "Malborska"
+    },
+    {
+      "street": "Malcanów"
+    },
+    {
+      "street": "Malczewskiego"
+    },
+    {
+      "street": "Malinowa"
+    },
+    {
+      "street": "Malinowskiego"
+    },
+    {
+      "street": "Mała"
+    },
+    {
+      "street": "Małcużyńskiego"
+    },
+    {
+      "street": "Małe Siekierki"
+    },
+    {
+      "street": "Małego Rycerza"
+    },
+    {
+      "street": "Małej Łąki"
+    },
+    {
+      "street": "Małych Dębów"
+    },
+    {
+      "street": "Mandarynki"
+    },
+    {
+      "street": "Mangalia"
+    },
+    {
+      "street": "Mańki-Wojdy"
+    },
+    {
+      "street": "Mańkowska"
+    },
+    {
+      "street": "Marcelin"
+    },
+    {
+      "street": "Marcinki"
+    },
+    {
+      "street": "Marecka"
+    },
+    {
+      "street": "Marianki"
+    },
+    {
+      "street": "Mariańska"
+    },
+    {
+      "street": "Mariensztat"
+    },
+    {
+      "street": "Mariew"
+    },
+    {
+      "street": "Marki-Ratusz"
+    },
+    {
+      "street": "Markowska"
+    },
+    {
+      "street": "Markowskiego"
+    },
+    {
+      "street": "Marmurowa"
+    },
+    {
+      "street": "Marsa-Las"
+    },
+    {
+      "street": "Marszałkowska"
+    },
+    {
+      "street": "Marymont"
+    },
+    {
+      "street": "Marymont-Potok"
+    },
+    {
+      "street": "Marynin"
+    },
+    {
+      "street": "Marysin"
+    },
+    {
+      "street": "Marywilska-Las"
+    },
+    {
+      "street": "Marzycieli"
+    },
+    {
+      "street": "Maszewska"
+    },
+    {
+      "street": "Maszynowa"
+    },
+    {
+      "street": "Matuszewska"
+    },
+    {
+      "street": "Mazowiecka"
+    },
+    {
+      "street": "Mazurska"
+    },
+    {
+      "street": "Meblowa"
+    },
+    {
+      "street": "Megasam"
+    },
+    {
+      "street": "Mehoffera"
+    },
+    {
+      "street": "Meissnera"
+    },
+    {
+      "street": "Meksykańska"
+    },
+    {
+      "street": "Melcera"
+    },
+    {
+      "street": "Mennica"
+    },
+    {
+      "street": "MERA-PNEFAL"
+    },
+    {
+      "street": "Metro Centrum Nauki Kopernik"
+    },
+    {
+      "street": "Metro Imielin"
+    },
+    {
+      "street": "Metro Kabaty"
+    },
+    {
+      "street": "Metro Księcia Janusza"
+    },
+    {
+      "street": "Metro Marymont"
+    },
+    {
+      "street": "Metro Młociny"
+    },
+    {
+      "street": "Metro Młynów"
+    },
+    {
+      "street": "Metro Natolin"
+    },
+    {
+      "street": "Metro Płocka"
+    },
+    {
+      "street": "Metro Pole Mokotowskie"
+    },
+    {
+      "street": "Metro Politechnika"
+    },
+    {
+      "street": "Metro Racławicka"
+    },
+    {
+      "street": "Metro Ratusz-Arsenał"
+    },
+    {
+      "street": "Metro Służew"
+    },
+    {
+      "street": "Metro Stadion Narodowy"
+    },
+    {
+      "street": "Metro Stare Bielany"
+    },
+    {
+      "street": "Metro Stokłosy"
+    },
+    {
+      "street": "Metro Szwedzka"
+    },
+    {
+      "street": "Metro Świętokrzyska"
+    },
+    {
+      "street": "Metro Targówek Mieszkaniowy"
+    },
+    {
+      "street": "Metro Trocka"
+    },
+    {
+      "street": "Metro Ursynów"
+    },
+    {
+      "street": "Metro Wawrzyszew"
+    },
+    {
+      "street": "Metro Wierzbno"
+    },
+    {
+      "street": "Metro Wilanowska"
+    },
+    {
+      "street": "Michalin"
+    },
+    {
+      "street": "Michalinki"
+    },
+    {
+      "street": "Michałów-Reginów"
+    },
+    {
+      "street": "Michałówek"
+    },
+    {
+      "street": "Mickiewicza"
+    },
+    {
+      "street": "Miejski Dom Kultury"
+    },
+    {
+      "street": "Miejski Ośrodek Kultury"
+    },
+    {
+      "street": "Mielczarskiego"
+    },
+    {
+      "street": "Mieszka I"
+    },
+    {
+      "street": "Międzyborska"
+    },
+    {
+      "street": "Międzylesie"
+    },
+    {
+      "street": "Międzynarodowa"
+    },
+    {
+      "street": "Miklaszewskiego"
+    },
+    {
+      "street": "Mikołajska"
+    },
+    {
+      "street": "Milenijna"
+    },
+    {
+      "street": "Milenium"
+    },
+    {
+      "street": "Miła"
+    },
+    {
+      "street": "Miłego Dnia"
+    },
+    {
+      "street": "Miłobędzka"
+    },
+    {
+      "street": "Mińska"
+    },
+    {
+      "street": "Mirkowska"
+    },
+    {
+      "street": "Mirków-Szkoła"
+    },
+    {
+      "street": "Młochów"
+    },
+    {
+      "street": "Młociny"
+    },
+    {
+      "street": "Młociny-UKSW"
+    },
+    {
+      "street": "Młocińska"
+    },
+    {
+      "street": "Młodzieńcza"
+    },
+    {
+      "street": "Młodzieżowa"
+    },
+    {
+      "street": "Młyn"
+    },
+    {
+      "street": "Młyn Michla"
+    },
+    {
+      "street": "Młynarska"
+    },
+    {
+      "street": "Młynów"
+    },
+    {
+      "street": "Mochtyńska"
+    },
+    {
+      "street": "Mochtyńska-Kanał"
+    },
+    {
+      "street": "Moczydłów"
+    },
+    {
+      "street": "Modlińska"
+    },
+    {
+      "street": "Modra"
+    },
+    {
+      "street": "Modraszki"
+    },
+    {
+      "street": "Modzelewskiego"
+    },
+    {
+      "street": "Mokotowska"
+    },
+    {
+      "street": "Mokry Ług-Leśniczówka"
+    },
+    {
+      "street": "Mołdawska"
+    },
+    {
+      "street": "Moniuszki"
+    },
+    {
+      "street": "Montażowa"
+    },
+    {
+      "street": "Monte Cassino"
+    },
+    {
+      "street": "Morawicza"
+    },
+    {
+      "street": "Morskie Oko"
+    },
+    {
+      "street": "Mory"
+    },
+    {
+      "street": "most Gdański"
+    },
+    {
+      "street": "most Grota-Roweckiego"
+    },
+    {
+      "street": "most Poniatowskiego"
+    },
+    {
+      "street": "most Siekierkowski"
+    },
+    {
+      "street": "most Świętokrzyski"
+    },
+    {
+      "street": "Mostowa"
+    },
+    {
+      "street": "Mostówka"
+    },
+    {
+      "street": "Mościckiego"
+    },
+    {
+      "street": "Mościska"
+    },
+    {
+      "street": "Motylkowa"
+    },
+    {
+      "street": "Mozaikowa"
+    },
+    {
+      "street": "Mrągowska"
+    },
+    {
+      "street": "Mroków"
+    },
+    {
+      "street": "Muranowska"
+    },
+    {
+      "street": "Muranów"
+    },
+    {
+      "street": "Muzealna"
+    },
+    {
+      "street": "Muzeum Narodowe"
+    },
+    {
+      "street": "Muzeum Powstania Warszawskiego"
+    },
+    {
+      "street": "Muzeum Zielonki"
+    },
+    {
+      "street": "Mycielskiego"
+    },
+    {
+      "street": "Mysiadło"
+    },
+    {
+      "street": "Myszczyn"
+    },
+    {
+      "street": "Myszczyn II"
+    },
+    {
+      "street": "Myszkowska"
+    },
+    {
+      "street": "Myśliborska"
+    },
+    {
+      "street": "Na Bateryjce"
+    },
+    {
+      "street": "Na Skraju"
+    },
+    {
+      "street": "Naczelnikowska"
+    },
+    {
+      "street": "Nadarzyńska"
+    },
+    {
+      "street": "Nadma"
+    },
+    {
+      "street": "Nadwiślańska"
+    },
+    {
+      "street": "Nadziei"
+    },
+    {
+      "street": "Nadzorcówka"
+    },
+    {
+      "street": "Nalewki-Muzeum"
+    },
+    {
+      "street": "Nałęczowska"
+    },
+    {
+      "street": "Namysłowska"
+    },
+    {
+      "street": "Napoleona"
+    },
+    {
+      "street": "Napoleona Bonaparte"
+    },
+    {
+      "street": "Narcyzowa"
+    },
+    {
+      "street": "Narodowa"
+    },
+    {
+      "street": "Narutowicza-Betoniarnia"
+    },
+    {
+      "street": "Narwik"
+    },
+    {
+      "street": "Natolin"
+    },
+    {
+      "street": "Natolin Płn."
+    },
+    {
+      "street": "Nauczycielska"
+    },
+    {
+      "street": "Niedziałkowskiego"
+    },
+    {
+      "street": "Niedźwiedzia"
+    },
+    {
+      "street": "Niemcewicza"
+    },
+    {
+      "street": "Niepodległości"
+    },
+    {
+      "street": "Niepokalanowska"
+    },
+    {
+      "street": "Nieporęt"
+    },
+    {
+      "street": "Nieświeska"
+    },
+    {
+      "street": "NIK"
+    },
+    {
+      "street": "Niska"
+    },
+    {
+      "street": "Nizinna"
+    },
+    {
+      "street": "Noakowskiego"
+    },
+    {
+      "street": "Nocznickiego"
+    },
+    {
+      "street": "Norblin"
+    },
+    {
+      "street": "Norwida"
+    },
+    {
+      "street": "Noskowskiego"
+    },
+    {
+      "street": "Novotel"
+    },
+    {
+      "street": "Nowa"
+    },
+    {
+      "street": "Nowa Iwiczna"
+    },
+    {
+      "street": "Nowa Wieś"
+    },
+    {
+      "street": "Nowa Wola"
+    },
+    {
+      "street": "Nowaka-Jeziorańskiego"
+    },
+    {
+      "street": "Nowe Babice"
+    },
+    {
+      "street": "Nowe Bemowo"
+    },
+    {
+      "street": "Nowe Grabie-Cmentarz"
+    },
+    {
+      "street": "Nowe Grabie I"
+    },
+    {
+      "street": "Nowe Grabie II"
+    },
+    {
+      "street": "Nowe Lipiny"
+    },
+    {
+      "street": "Nowe Słupno"
+    },
+    {
+      "street": "Nowe Wągrodno"
+    },
+    {
+      "street": "Nowe Włochy"
+    },
+    {
+      "street": "Nowe Załubice"
+    },
+    {
+      "street": "Nowinek"
+    },
+    {
+      "street": "Nowiny"
+    },
+    {
+      "street": "Nowodworska"
+    },
+    {
+      "street": "Nowodwory"
+    },
+    {
+      "street": "Nowolipie"
+    },
+    {
+      "street": "Nowolipki"
+    },
+    {
+      "street": "Nowotyska"
+    },
+    {
+      "street": "Nowoursynowska"
+    },
+    {
+      "street": "Nowowiejska"
+    },
+    {
+      "street": "Nowy Podolszyn"
+    },
+    {
+      "street": "Nowy Sękocin"
+    },
+    {
+      "street": "Nowy Świat"
+    },
+    {
+      "street": "Nowy Świat-Uniwersytet"
+    },
+    {
+      "street": "Nowy Zjazd"
+    },
+    {
+      "street": "Nugat"
+    },
+    {
+      "street": "Objazdowa"
+    },
+    {
+      "street": "Oborska"
+    },
+    {
+      "street": "Obory"
+    },
+    {
+      "street": "Obory-Pałac"
+    },
+    {
+      "street": "Obórki"
+    },
+    {
+      "street": "Obórki-Wał"
+    },
+    {
+      "street": "Obrazkowa"
+    },
+    {
+      "street": "Obręb"
+    },
+    {
+      "street": "Obręb I"
+    },
+    {
+      "street": "Obręb II"
+    },
+    {
+      "street": "Obrońców Tobruku"
+    },
+    {
+      "street": "Obrońców Warszawy"
+    },
+    {
+      "street": "Obrzeżna"
+    },
+    {
+      "street": "Och-Teatr"
+    },
+    {
+      "street": "Ochocza"
+    },
+    {
+      "street": "Ochota-Ratusz"
+    },
+    {
+      "street": "Oczapowskiego"
+    },
+    {
+      "street": "Oczyszczalnia \"Czajka\""
+    },
+    {
+      "street": "Od Lasu"
+    },
+    {
+      "street": "Odeska"
+    },
+    {
+      "street": "Odkryta"
+    },
+    {
+      "street": "Odlewnicza"
+    },
+    {
+      "street": "Odrębna"
+    },
+    {
+      "street": "Odrodzenia"
+    },
+    {
+      "street": "Odyńca"
+    },
+    {
+      "street": "Ogińskiego"
+    },
+    {
+      "street": "Ogórkowa"
+    },
+    {
+      "street": "Ogrodnicza"
+    },
+    {
+      "street": "Ogrodowa"
+    },
+    {
+      "street": "Ogrody Bielawy"
+    },
+    {
+      "street": "Ogrody Działkowe Bemowo"
+    },
+    {
+      "street": "Ogrody Działkowe Budowlani II"
+    },
+    {
+      "street": "Ogrody Działkowe Czerniaków"
+    },
+    {
+      "street": "Ogrody Działkowe Kawęczyn"
+    },
+    {
+      "street": "Ogrody Działkowe Na Skraju"
+    },
+    {
+      "street": "Ogrody Działkowe Paluch"
+    },
+    {
+      "street": "Ogrody Działkowe Piaski"
+    },
+    {
+      "street": "Ogrody Działkowe Uroczysko I"
+    },
+    {
+      "street": "Ogrody Działkowe Uroczysko II"
+    },
+    {
+      "street": "Ogrody Działkowe Wilanówka"
+    },
+    {
+      "street": "Ogród Botaniczny"
+    },
+    {
+      "street": "Ogród Działkowy im.Warneńczyka"
+    },
+    {
+      "street": "Ojca Aniceta"
+    },
+    {
+      "street": "Okęcie Business Park"
+    },
+    {
+      "street": "Oknicka"
+    },
+    {
+      "street": "Okopowa"
+    },
+    {
+      "street": "Okólna"
+    },
+    {
+      "street": "Okrąg"
+    },
+    {
+      "street": "Okrągła"
+    },
+    {
+      "street": "Okrężna"
+    },
+    {
+      "street": "Okrzei"
+    },
+    {
+      "street": "Okrzeszyn"
+    },
+    {
+      "street": "Okrzeszyn II"
+    },
+    {
+      "street": "Okrzewska I"
+    },
+    {
+      "street": "Okrzewska II"
+    },
+    {
+      "street": "Okularowa"
+    },
+    {
+      "street": "Okunin"
+    },
+    {
+      "street": "Olchy"
+    },
+    {
+      "street": "Olecka"
+    },
+    {
+      "street": "Olesin"
+    },
+    {
+      "street": "Olszewnica Stara"
+    },
+    {
+      "street": "Olszowa"
+    },
+    {
+      "street": "Olszyna Łyczyńska"
+    },
+    {
+      "street": "Olszynowa"
+    },
+    {
+      "street": "Ołówkowa"
+    },
+    {
+      "street": "Opacz"
+    },
+    {
+      "street": "Opacz-Szkoła"
+    },
+    {
+      "street": "Opaczewska"
+    },
+    {
+      "street": "Opłotek"
+    },
+    {
+      "street": "Oraczy"
+    },
+    {
+      "street": "Orchowiecka"
+    },
+    {
+      "street": "Ordona"
+    },
+    {
+      "street": "Ordynacka"
+    },
+    {
+      "street": "Orężna"
+    },
+    {
+      "street": "Orla"
+    },
+    {
+      "street": "Orląt Lwowskich"
+    },
+    {
+      "street": "Orlich Gniazd"
+    },
+    {
+      "street": "Orszagha"
+    },
+    {
+      "street": "Orzechowa"
+    },
+    {
+      "street": "Orzeszkowej"
+    },
+    {
+      "street": "Orzycka"
+    },
+    {
+      "street": "os.Arbuzowa"
+    },
+    {
+      "street": "os.Batorego"
+    },
+    {
+      "street": "os.Belina"
+    },
+    {
+      "street": "os.Bernardyńska"
+    },
+    {
+      "street": "os.Bukowiec"
+    },
+    {
+      "street": "os.Bukowy Dworek"
+    },
+    {
+      "street": "os.Derby"
+    },
+    {
+      "street": "os.Derby III"
+    },
+    {
+      "street": "os.Derby VI"
+    },
+    {
+      "street": "os.Domaniewska"
+    },
+    {
+      "street": "os.Dudziarska"
+    },
+    {
+      "street": "Os.Elsam"
+    },
+    {
+      "street": "os.Górczewska"
+    },
+    {
+      "street": "os.Grapa"
+    },
+    {
+      "street": "os.Iskra"
+    },
+    {
+      "street": "os.Jagiellońska"
+    },
+    {
+      "street": "os.Jantar"
+    },
+    {
+      "street": "os.Kabaty"
+    },
+    {
+      "street": "os.Konstancja"
+    },
+    {
+      "street": "os.Kwiatowa"
+    },
+    {
+      "street": "os.Las"
+    },
+    {
+      "street": "os.Leśne"
+    },
+    {
+      "street": "os.Lewandów I"
+    },
+    {
+      "street": "os.Lewandów II"
+    },
+    {
+      "street": "Os.Ługi"
+    },
+    {
+      "street": "os.Majdańska"
+    },
+    {
+      "street": "os.Marywilska"
+    },
+    {
+      "street": "os.Młodych"
+    },
+    {
+      "street": "os.Nafta"
+    },
+    {
+      "street": "os.Niepodległości"
+    },
+    {
+      "street": "os.Nowy Mokotów"
+    },
+    {
+      "street": "os.Olszyny"
+    },
+    {
+      "street": "os.Orlik"
+    },
+    {
+      "street": "os.Patio"
+    },
+    {
+      "street": "os.Piaski"
+    },
+    {
+      "street": "os.Potok"
+    },
+    {
+      "street": "os.Przylesie"
+    },
+    {
+      "street": "os.Ruda"
+    },
+    {
+      "street": "Os.Staszica/Pętla"
+    },
+    {
+      "street": "os.Victoria"
+    },
+    {
+      "street": "os.Walendia"
+    },
+    {
+      "street": "os.Wilga"
+    },
+    {
+      "street": "Os.Wituś"
+    },
+    {
+      "street": "Os.Wolności"
+    },
+    {
+      "street": "os.Wyżyny"
+    },
+    {
+      "street": "os.Zielony Staw"
+    },
+    {
+      "street": "Osiedle"
+    },
+    {
+      "street": "Osiedle Mirków"
+    },
+    {
+      "street": "Osiedle Młodych"
+    },
+    {
+      "street": "Osiedlowa"
+    },
+    {
+      "street": "Osmańczyka"
+    },
+    {
+      "street": "Osmańska"
+    },
+    {
+      "street": "Osmańska-DHL"
+    },
+    {
+      "street": "OSP Skrzeszew"
+    },
+    {
+      "street": "OSP Złotokłos"
+    },
+    {
+      "street": "Ossów-Szkoła"
+    },
+    {
+      "street": "Ostroroga"
+    },
+    {
+      "street": "Ostródzka"
+    },
+    {
+      "street": "Ostródzka-Szkoła"
+    },
+    {
+      "street": "Oś Królewska"
+    },
+    {
+      "street": "Ośrodek AZS"
+    },
+    {
+      "street": "Ośrodek Cora"
+    },
+    {
+      "street": "Ośrodek LOK"
+    },
+    {
+      "street": "Ośrodek Szkoleniowy"
+    },
+    {
+      "street": "Ośrodek Wojskowy"
+    },
+    {
+      "street": "Ośrodek Zdrowia"
+    },
+    {
+      "street": "Otwock"
+    },
+    {
+      "street": "OW Promenada"
+    },
+    {
+      "street": "Ożarów Maz."
+    },
+    {
+      "street": "P+R Al.Krakowska"
+    },
+    {
+      "street": "Paderewskiego"
+    },
+    {
+      "street": "Palisadowa"
+    },
+    {
+      "street": "Palmiry"
+    },
+    {
+      "street": "Paluch"
+    },
+    {
+      "street": "Pałac"
+    },
+    {
+      "street": "Pałacowa"
+    },
+    {
+      "street": "Pancera"
+    },
+    {
+      "street": "Pancerz"
+    },
+    {
+      "street": "Pańska"
+    },
+    {
+      "street": "Parafialna"
+    },
+    {
+      "street": "Parcela I"
+    },
+    {
+      "street": "Parcela II"
+    },
+    {
+      "street": "Parcelacyjna"
+    },
+    {
+      "street": "Park Dreszera"
+    },
+    {
+      "street": "Park Kaskada"
+    },
+    {
+      "street": "Park Magiczny"
+    },
+    {
+      "street": "Park Miejski"
+    },
+    {
+      "street": "Park Młociński"
+    },
+    {
+      "street": "Park Moczydło"
+    },
+    {
+      "street": "Park Olszyna"
+    },
+    {
+      "street": "Park Postępu"
+    },
+    {
+      "street": "Park Praski"
+    },
+    {
+      "street": "Park Skaryszewski"
+    },
+    {
+      "street": "Park Traugutta"
+    },
+    {
+      "street": "Park Zdrojowy"
+    },
+    {
+      "street": "Parkowa"
+    },
+    {
+      "street": "Parlamentarna"
+    },
+    {
+      "street": "Parole"
+    },
+    {
+      "street": "Parole-Pętla"
+    },
+    {
+      "street": "Parowcowa"
+    },
+    {
+      "street": "Parowozowa"
+    },
+    {
+      "street": "Partyzantów"
+    },
+    {
+      "street": "Partyzantów-Szkoła"
+    },
+    {
+      "street": "Paschalisa-Jakubowicza"
+    },
+    {
+      "street": "Pastuszków"
+    },
+    {
+      "street": "Paszków"
+    },
+    {
+      "street": "Patkowskiego"
+    },
+    {
+      "street": "Pelcowizna"
+    },
+    {
+      "street": "Pelikanów"
+    },
+    {
+      "street": "Peonii"
+    },
+    {
+      "street": "Perkuna"
+    },
+    {
+      "street": "Perzyńskiego"
+    },
+    {
+      "street": "Pęchery"
+    },
+    {
+      "street": "Pęclin"
+    },
+    {
+      "street": "Pęclińska"
+    },
+    {
+      "street": "Pęczkowskiego"
+    },
+    {
+      "street": "Piaseczno"
+    },
+    {
+      "street": "Piaski"
+    },
+    {
+      "street": "Piaskowa"
+    },
+    {
+      "street": "Piasta"
+    },
+    {
+      "street": "Piasta Kołodzieja"
+    },
+    {
+      "street": "Piastowska"
+    },
+    {
+      "street": "Piastów"
+    },
+    {
+      "street": "Piastów Śląskich"
+    },
+    {
+      "street": "Picassa"
+    },
+    {
+      "street": "Piechurów"
+    },
+    {
+      "street": "Pieczyska"
+    },
+    {
+      "street": "Pielęgniarek"
+    },
+    {
+      "street": "Pieńków-Sklep"
+    },
+    {
+      "street": "Pieńków-Wieś"
+    },
+    {
+      "street": "Pięciolinii"
+    },
+    {
+      "street": "Piękna"
+    },
+    {
+      "street": "Pijarska"
+    },
+    {
+      "street": "Pilaszków"
+    },
+    {
+      "street": "Pilawa"
+    },
+    {
+      "street": "Pilcha"
+    },
+    {
+      "street": "Pileckiego"
+    },
+    {
+      "street": "Piłsudskiego-Kościół"
+    },
+    {
+      "street": "PIMot"
+    },
+    {
+      "street": "Pionierska"
+    },
+    {
+      "street": "Piotra Skargi"
+    },
+    {
+      "street": "Piotrkówek Mały"
+    },
+    {
+      "street": "Pirenejska"
+    },
+    {
+      "street": "Piskórka"
+    },
+    {
+      "street": "Piusa XI"
+    },
+    {
+      "street": "PKP Anin"
+    },
+    {
+      "street": "PKP Dawidy"
+    },
+    {
+      "street": "PKP Dąbkowizna"
+    },
+    {
+      "street": "PKP Falenica"
+    },
+    {
+      "street": "PKP Gocławek"
+    },
+    {
+      "street": "PKP Gołąbki"
+    },
+    {
+      "street": "PKP Halinów"
+    },
+    {
+      "street": "PKP Jeziorki"
+    },
+    {
+      "street": "PKP Józefów"
+    },
+    {
+      "street": "PKP Kobyłka"
+    },
+    {
+      "street": "PKP Kobyłka-Ossów"
+    },
+    {
+      "street": "PKP Koło"
+    },
+    {
+      "street": "PKP Legionowo"
+    },
+    {
+      "street": "PKP Legionowo Piaski"
+    },
+    {
+      "street": "PKP Legionowo Przystanek"
+    },
+    {
+      "street": "PKP Michalin"
+    },
+    {
+      "street": "PKP Michałów-Reginów"
+    },
+    {
+      "street": "PKP Miedzeszyn"
+    },
+    {
+      "street": "PKP Międzylesie"
+    },
+    {
+      "street": "PKP Mokry Ług"
+    },
+    {
+      "street": "PKP Nieporęt"
+    },
+    {
+      "street": "PKP Nowa Iwiczna"
+    },
+    {
+      "street": "PKP Okęcie"
+    },
+    {
+      "street": "PKP Olszynka Grochowska"
+    },
+    {
+      "street": "PKP Ożarów Mazowiecki"
+    },
+    {
+      "street": "PKP Piaseczno"
+    },
+    {
+      "street": "PKP Płudy"
+    },
+    {
+      "street": "PKP Powązki"
+    },
+    {
+      "street": "PKP Powiśle"
+    },
+    {
+      "street": "PKP Praga"
+    },
+    {
+      "street": "PKP Radość"
+    },
+    {
+      "street": "PKP Rakowiec"
+    },
+    {
+      "street": "PKP Rembertów"
+    },
+    {
+      "street": "PKP Służewiec"
+    },
+    {
+      "street": "PKP Sulejówek Miłosna"
+    },
+    {
+      "street": "PKP Śródborów"
+    },
+    {
+      "street": "PKP Toruńska"
+    },
+    {
+      "street": "PKP Ursus"
+    },
+    {
+      "street": "PKP Ursus-Niedźwiadek"
+    },
+    {
+      "street": "PKP Ursus Płn."
+    },
+    {
+      "street": "PKP Wawer"
+    },
+    {
+      "street": "PKP Wesoła"
+    },
+    {
+      "street": "PKP WKD Al.Jerozolimskie"
+    },
+    {
+      "street": "PKP Włochy"
+    },
+    {
+      "street": "PKP Wola (Kasprzaka)"
+    },
+    {
+      "street": "PKP Wola (Wolska)"
+    },
+    {
+      "street": "PKP Wołomin"
+    },
+    {
+      "street": "PKP Wołomin (Laskowa)"
+    },
+    {
+      "street": "PKP Wołomin Słoneczna"
+    },
+    {
+      "street": "PKP Zacisze-Wilno"
+    },
+    {
+      "street": "PKP Zagościniec"
+    },
+    {
+      "street": "PKP Zalesie Górne"
+    },
+    {
+      "street": "PKP Zielonka"
+    },
+    {
+      "street": "PKP Zielonka (Zosinek)"
+    },
+    {
+      "street": "PKP Żerań"
+    },
+    {
+      "street": "pl.Bankowy"
+    },
+    {
+      "street": "Pl.Bernardyński"
+    },
+    {
+      "street": "pl.Grunwaldzki"
+    },
+    {
+      "street": "pl.Grzybowski"
+    },
+    {
+      "street": "pl.Hallera"
+    },
+    {
+      "street": "pl.Inwalidów"
+    },
+    {
+      "street": "pl.Jana Pawła II"
+    },
+    {
+      "street": "pl.Kasztelański"
+    },
+    {
+      "street": "pl.Konstytucji"
+    },
+    {
+      "street": "pl.Krasińskich"
+    },
+    {
+      "street": "pl.Małachowskiego"
+    },
+    {
+      "street": "pl.Na Rozdrożu"
+    },
+    {
+      "street": "pl.Narutowicza"
+    },
+    {
+      "street": "pl.Niemena"
+    },
+    {
+      "street": "pl.Ostrej Bramy"
+    },
+    {
+      "street": "pl.Piłsudskiego"
+    },
+    {
+      "street": "pl.Politechniki"
+    },
+    {
+      "street": "pl.Powstańców Warszawy"
+    },
+    {
+      "street": "pl.Przymierza"
+    },
+    {
+      "street": "pl.Sportowy"
+    },
+    {
+      "street": "pl.Starynkiewicza"
+    },
+    {
+      "street": "pl.Szembeka"
+    },
+    {
+      "street": "pl.Szwedzki"
+    },
+    {
+      "street": "pl.Teatralny"
+    },
+    {
+      "street": "pl.Trzech Krzyży"
+    },
+    {
+      "street": "pl.Tysiąclecia"
+    },
+    {
+      "street": "pl.Unii Lubelskiej"
+    },
+    {
+      "street": "pl.Wilsona"
+    },
+    {
+      "street": "pl.Wolności"
+    },
+    {
+      "street": "pl.Zamkowy"
+    },
+    {
+      "street": "pl.Zawiszy"
+    },
+    {
+      "street": "pl.Zbawiciela"
+    },
+    {
+      "street": "Plac Wilsona"
+    },
+    {
+      "street": "Planetowa"
+    },
+    {
+      "street": "Planty"
+    },
+    {
+      "street": "Platanowa"
+    },
+    {
+      "street": "Plutonu Torpedy"
+    },
+    {
+      "street": "Płaskowickiej"
+    },
+    {
+      "street": "Płochocin"
+    },
+    {
+      "street": "Płochocińska"
+    },
+    {
+      "street": "Płocka-Szpital"
+    },
+    {
+      "street": "Płowiecka"
+    },
+    {
+      "street": "Płużańska"
+    },
+    {
+      "street": "Płużnicka"
+    },
+    {
+      "street": "Płytowa"
+    },
+    {
+      "street": "Poborzańska"
+    },
+    {
+      "street": "Pocisk"
+    },
+    {
+      "street": "Pocztowa"
+    },
+    {
+      "street": "Poczty Gdańskiej"
+    },
+    {
+      "street": "POD Głosków"
+    },
+    {
+      "street": "POD Kajetany"
+    },
+    {
+      "street": "POD Szczaki"
+    },
+    {
+      "street": "Podbiałowa"
+    },
+    {
+      "street": "Podbipięty"
+    },
+    {
+      "street": "Podczaszyńskiego"
+    },
+    {
+      "street": "Podgórna"
+    },
+    {
+      "street": "Podkowińska"
+    },
+    {
+      "street": "Podkowy"
+    },
+    {
+      "street": "Podleśna"
+    },
+    {
+      "street": "Podleśna-IMiGW"
+    },
+    {
+      "street": "Podłęcze"
+    },
+    {
+      "street": "Podłęcze II"
+    },
+    {
+      "street": "Podolska"
+    },
+    {
+      "street": "Podolszyn"
+    },
+    {
+      "street": "Podróżna"
+    },
+    {
+      "street": "Podskarbińska"
+    },
+    {
+      "street": "Podwójna"
+    },
+    {
+      "street": "Podzamcze"
+    },
+    {
+      "street": "Poetów"
+    },
+    {
+      "street": "Pogodna"
+    },
+    {
+      "street": "Pogroszew"
+    },
+    {
+      "street": "Pogroszew Kolonia"
+    },
+    {
+      "street": "Pole Mokotowskie"
+    },
+    {
+      "street": "Poleczki"
+    },
+    {
+      "street": "Polfa"
+    },
+    {
+      "street": "Poligonowa"
+    },
+    {
+      "street": "Polinezyjska"
+    },
+    {
+      "street": "Politechnika"
+    },
+    {
+      "street": "POLMO"
+    },
+    {
+      "street": "Polna"
+    },
+    {
+      "street": "Polnych Kwiatów"
+    },
+    {
+      "street": "Poloneza"
+    },
+    {
+      "street": "Polskie Radio"
+    },
+    {
+      "street": "Połczyńska-parking P+R"
+    },
+    {
+      "street": "Południowa"
+    },
+    {
+      "street": "Pomiechowska"
+    },
+    {
+      "street": "Pomnik Kolei Wąskotorowej"
+    },
+    {
+      "street": "Pomnik Lotnika"
+    },
+    {
+      "street": "Pomnik Sapera"
+    },
+    {
+      "street": "Pomologiczna"
+    },
+    {
+      "street": "Pomorska"
+    },
+    {
+      "street": "Poniatowskiego"
+    },
+    {
+      "street": "Poniatowskiego-Przychodnia"
+    },
+    {
+      "street": "Poniatów"
+    },
+    {
+      "street": "Popiela"
+    },
+    {
+      "street": "Popławska"
+    },
+    {
+      "street": "Poprzeczna"
+    },
+    {
+      "street": "Popularna"
+    },
+    {
+      "street": "Porajów"
+    },
+    {
+      "street": "Port Nieporęt"
+    },
+    {
+      "street": "Port Pilawa"
+    },
+    {
+      "street": "Portowa"
+    },
+    {
+      "street": "Porzeczkowa"
+    },
+    {
+      "street": "Posag 7 Panien"
+    },
+    {
+      "street": "Postępu"
+    },
+    {
+      "street": "Pośrednia"
+    },
+    {
+      "street": "Potockich"
+    },
+    {
+      "street": "Potulicka"
+    },
+    {
+      "street": "Powązki-Cm.Wojskowy"
+    },
+    {
+      "street": "Powązki-IV Brama"
+    },
+    {
+      "street": "Powązkowska"
+    },
+    {
+      "street": "Powojowa"
+    },
+    {
+      "street": "Powsin-Park Kultury"
+    },
+    {
+      "street": "Powsinek"
+    },
+    {
+      "street": "Powstańców"
+    },
+    {
+      "street": "Powstańców Warszawy"
+    },
+    {
+      "street": "Poziomkowa"
+    },
+    {
+      "street": "Poznańska"
+    },
+    {
+      "street": "Pozytywki"
+    },
+    {
+      "street": "Pożarowa"
+    },
+    {
+      "street": "Pożaryskiego"
+    },
+    {
+      "street": "Pólko"
+    },
+    {
+      "street": "Północna"
+    },
+    {
+      "street": "Praga-Płd.-Ratusz"
+    },
+    {
+      "street": "Prasowa"
+    },
+    {
+      "street": "Prażmowska"
+    },
+    {
+      "street": "Prądzyńskiego"
+    },
+    {
+      "street": "Prefabet"
+    },
+    {
+      "street": "Prętowa"
+    },
+    {
+      "street": "Projektowana"
+    },
+    {
+      "street": "Promyka"
+    },
+    {
+      "street": "Prosta"
+    },
+    {
+      "street": "Protazego"
+    },
+    {
+      "street": "Prozy"
+    },
+    {
+      "street": "Prusa"
+    },
+    {
+      "street": "Pruszkowska"
+    },
+    {
+      "street": "Pruszków"
+    },
+    {
+      "street": "Prystora"
+    },
+    {
+      "street": "Przasnyska"
+    },
+    {
+      "street": "Przebieg"
+    },
+    {
+      "street": "Przebiśniegów"
+    },
+    {
+      "street": "Przebudzenia Wiosny"
+    },
+    {
+      "street": "Przedpełskiego"
+    },
+    {
+      "street": "Przedpole"
+    },
+    {
+      "street": "Przejazd"
+    },
+    {
+      "street": "Przejezdna"
+    },
+    {
+      "street": "Przekorna"
+    },
+    {
+      "street": "Przelotowa"
+    },
+    {
+      "street": "Przełęczy"
+    },
+    {
+      "street": "Przemysława II"
+    },
+    {
+      "street": "Przemysłowa"
+    },
+    {
+      "street": "Przepiórki"
+    },
+    {
+      "street": "Przewodowa"
+    },
+    {
+      "street": "Przeworska"
+    },
+    {
+      "street": "Przy Agorze"
+    },
+    {
+      "street": "Przy Bażantarni"
+    },
+    {
+      "street": "Przy Grodzisku"
+    },
+    {
+      "street": "Przy Parku"
+    },
+    {
+      "street": "Przyborowie"
+    },
+    {
+      "street": "Przybyszewskiego"
+    },
+    {
+      "street": "Przyczółek Grochowski"
+    },
+    {
+      "street": "Przydrożna"
+    },
+    {
+      "street": "Przyjaciół"
+    },
+    {
+      "street": "Przyjazna"
+    },
+    {
+      "street": "Przylesie"
+    },
+    {
+      "street": "Przyleśna"
+    },
+    {
+      "street": "Przyszłość"
+    },
+    {
+      "street": "Pszeniczna"
+    },
+    {
+      "street": "Puchały"
+    },
+    {
+      "street": "Pułaskiego"
+    },
+    {
+      "street": "Pustelnicka"
+    },
+    {
+      "street": "Pustelnik"
+    },
+    {
+      "street": "Pustola"
+    },
+    {
+      "street": "Puszczyka"
+    },
+    {
+      "street": "Puszkina"
+    },
+    {
+      "street": "Raabego"
+    },
+    {
+      "street": "Raciborska"
+    },
+    {
+      "street": "Racjonalizacji"
+    },
+    {
+      "street": "Racławicka"
+    },
+    {
+      "street": "Radarowa"
+    },
+    {
+      "street": "Radiostacja Łazy"
+    },
+    {
+      "street": "Radiowa"
+    },
+    {
+      "street": "Radiowa-WAT"
+    },
+    {
+      "street": "Radiowo"
+    },
+    {
+      "street": "Radiowo-Bocznica"
+    },
+    {
+      "street": "Radiówek"
+    },
+    {
+      "street": "Radość-Wodociąg"
+    },
+    {
+      "street": "Radzymin"
+    },
+    {
+      "street": "Radzymińska"
+    },
+    {
+      "street": "Rafii"
+    },
+    {
+      "street": "Raginisa"
+    },
+    {
+      "street": "Rakowiec"
+    },
+    {
+      "street": "Rakowiecka"
+    },
+    {
+      "street": "Rakowiecka-Sanktuarium"
+    },
+    {
+      "street": "Rakowska"
+    },
+    {
+      "street": "Raszyńska"
+    },
+    {
+      "street": "Rataja"
+    },
+    {
+      "street": "Ratusz-Arsenał"
+    },
+    {
+      "street": "Ratuszowa"
+    },
+    {
+      "street": "Ratuszowa-ZOO"
+    },
+    {
+      "street": "Rebusowa"
+    },
+    {
+      "street": "Rechniewskiego"
+    },
+    {
+      "street": "Reduta Wolska"
+    },
+    {
+      "street": "Redutowa"
+    },
+    {
+      "street": "Regulska"
+    },
+    {
+      "street": "Reja"
+    },
+    {
+      "street": "Rejtana"
+    },
+    {
+      "street": "Rekrucka"
+    },
+    {
+      "street": "Rembelszczyzna"
+    },
+    {
+      "street": "Rembertów-Akademia"
+    },
+    {
+      "street": "Rembertów-Kolonia"
+    },
+    {
+      "street": "Rembertów-Ratusz"
+    },
+    {
+      "street": "Rembertów-Strzelnica"
+    },
+    {
+      "street": "Rembielińska"
+    },
+    {
+      "street": "Reymonta"
+    },
+    {
+      "street": "Rezedowa"
+    },
+    {
+      "street": "Ręczajska"
+    },
+    {
+      "street": "RKS Orzeł"
+    },
+    {
+      "street": "Robercin"
+    },
+    {
+      "street": "Robotnicza"
+    },
+    {
+      "street": "Rodła"
+    },
+    {
+      "street": "Rodzinna"
+    },
+    {
+      "street": "Rogalińska"
+    },
+    {
+      "street": "Rogatkowa"
+    },
+    {
+      "street": "Rogowska"
+    },
+    {
+      "street": "Rokokowa"
+    },
+    {
+      "street": "Rokosowska"
+    },
+    {
+      "street": "Rolanda"
+    },
+    {
+      "street": "Rolna"
+    },
+    {
+      "street": "Rolnicza"
+    },
+    {
+      "street": "Romantyczna"
+    },
+    {
+      "street": "Romaszewskiego"
+    },
+    {
+      "street": "rondo \"Radosława\""
+    },
+    {
+      "street": "rondo Cudu Nad Wisłą"
+    },
+    {
+      "street": "rondo Daszyńskiego"
+    },
+    {
+      "street": "rondo Granzowa"
+    },
+    {
+      "street": "rondo ONZ"
+    },
+    {
+      "street": "rondo Starzyńskiego"
+    },
+    {
+      "street": "rondo Unii Europejskiej"
+    },
+    {
+      "street": "rondo Waszyngtona"
+    },
+    {
+      "street": "rondo Zesłańców Syberyjskich"
+    },
+    {
+      "street": "rondo Żaba"
+    },
+    {
+      "street": "rondo Żabczyńskiego"
+    },
+    {
+      "street": "Rosnowskiego"
+    },
+    {
+      "street": "Rosochata"
+    },
+    {
+      "street": "Rosy"
+    },
+    {
+      "street": "Rozalin"
+    },
+    {
+      "street": "Rozbrat"
+    },
+    {
+      "street": "Rozchodnikowa"
+    },
+    {
+      "street": "Rozjazd Oborski"
+    },
+    {
+      "street": "Rozłogi"
+    },
+    {
+      "street": "Rozłucka"
+    },
+    {
+      "street": "Rozwadowskiego"
+    },
+    {
+      "street": "Rozwojowa"
+    },
+    {
+      "street": "Rów Natoliński"
+    },
+    {
+      "street": "Różana"
+    },
+    {
+      "street": "Rubinowa"
+    },
+    {
+      "street": "Ruczaj"
+    },
+    {
+      "street": "Rudka"
+    },
+    {
+      "street": "Rudnickiego"
+    },
+    {
+      "street": "Rudzka"
+    },
+    {
+      "street": "Rumiankowa"
+    },
+    {
+      "street": "Runowska"
+    },
+    {
+      "street": "Runów Osada"
+    },
+    {
+      "street": "Runów Osada II"
+    },
+    {
+      "street": "Rusiec"
+    },
+    {
+      "street": "Ruskowy Bród"
+    },
+    {
+      "street": "Ruty"
+    },
+    {
+      "street": "Rybałtów"
+    },
+    {
+      "street": "Rybie"
+    },
+    {
+      "street": "Rybna"
+    },
+    {
+      "street": "Rybnicka"
+    },
+    {
+      "street": "Rycerska"
+    },
+    {
+      "street": "Rychnowska"
+    },
+    {
+      "street": "Rydygiera"
+    },
+    {
+      "street": "Rynek"
+    },
+    {
+      "street": "Rynia"
+    },
+    {
+      "street": "Ryżowa"
+    },
+    {
+      "street": "Rzakta"
+    },
+    {
+      "street": "Rzeczna"
+    },
+    {
+      "street": "Rzemieślnicza"
+    },
+    {
+      "street": "Rzeszotarskiej"
+    },
+    {
+      "street": "Sadkowska"
+    },
+    {
+      "street": "Sadowa"
+    },
+    {
+      "street": "Sadowa-Dom Opieki"
+    },
+    {
+      "street": "Sady Żoliborskie"
+    },
+    {
+      "street": "Sadyba"
+    },
+    {
+      "street": "Sagalli"
+    },
+    {
+      "street": "Salomea"
+    },
+    {
+      "street": "Samarytanka"
+    },
+    {
+      "street": "Samochodowa"
+    },
+    {
+      "street": "Samorządowa"
+    },
+    {
+      "street": "Samsonowska"
+    },
+    {
+      "street": "Sanguszki"
+    },
+    {
+      "street": "Sanktuarium"
+    },
+    {
+      "street": "Santocka"
+    },
+    {
+      "street": "Sapiehy"
+    },
+    {
+      "street": "Sarmacka"
+    },
+    {
+      "street": "Sasanki"
+    },
+    {
+      "street": "Sasankowa"
+    },
+    {
+      "street": "Sasina"
+    },
+    {
+      "street": "Sasina-Liceum"
+    },
+    {
+      "street": "Saska"
+    },
+    {
+      "street": "Sągi"
+    },
+    {
+      "street": "Schroegera"
+    },
+    {
+      "street": "Schronisko dla Zwierząt"
+    },
+    {
+      "street": "Serwitucka"
+    },
+    {
+      "street": "Sezam"
+    },
+    {
+      "street": "Sęczkowa"
+    },
+    {
+      "street": "Sękocin"
+    },
+    {
+      "street": "Sękocin Las"
+    },
+    {
+      "street": "SGGW-Biblioteka"
+    },
+    {
+      "street": "SGGW-Klinika"
+    },
+    {
+      "street": "SGGW-Rektorat"
+    },
+    {
+      "street": "Siarczana"
+    },
+    {
+      "street": "Sieczna"
+    },
+    {
+      "street": "Siedliskowa"
+    },
+    {
+      "street": "Siedmiogrodzka"
+    },
+    {
+      "street": "Siedzikówny \"Inki\""
+    },
+    {
+      "street": "Siekierki-Sanktuarium"
+    },
+    {
+      "street": "Siekierkowska"
+    },
+    {
+      "street": "Sielankowa"
+    },
+    {
+      "street": "Sielce"
+    },
+    {
+      "street": "Sielska"
+    },
+    {
+      "street": "Siemiatycka"
+    },
+    {
+      "street": "Siemieńskiego"
+    },
+    {
+      "street": "Sienkiewicza"
+    },
+    {
+      "street": "Sienna"
+    },
+    {
+      "street": "Siennicka"
+    },
+    {
+      "street": "Sierakowska"
+    },
+    {
+      "street": "Sierakowskiego"
+    },
+    {
+      "street": "Sieraków"
+    },
+    {
+      "street": "Sikorskiego"
+    },
+    {
+      "street": "Siodlarska"
+    },
+    {
+      "street": "Siwek"
+    },
+    {
+      "street": "Siwińskiego"
+    },
+    {
+      "street": "Skalnicowa"
+    },
+    {
+      "street": "Skarbka z Gór"
+    },
+    {
+      "street": "Skibińskiego"
+    },
+    {
+      "street": "Składkowskiego"
+    },
+    {
+      "street": "Skolimów"
+    },
+    {
+      "street": "Skolimów Północny"
+    },
+    {
+      "street": "Skorochód-Majewskiego"
+    },
+    {
+      "street": "Skorosze"
+    },
+    {
+      "street": "Skoroszewska"
+    },
+    {
+      "street": "Skrzyneckiego"
+    },
+    {
+      "street": "Słodowiec"
+    },
+    {
+      "street": "Słomczyn"
+    },
+    {
+      "street": "Słomczyn-Kościół"
+    },
+    {
+      "street": "Słomczyn-Szkoła"
+    },
+    {
+      "street": "Słoneczna"
+    },
+    {
+      "street": "Słoneczników"
+    },
+    {
+      "street": "Słowackiego"
+    },
+    {
+      "street": "Słowicza"
+    },
+    {
+      "street": "Słupno"
+    },
+    {
+      "street": "Służew"
+    },
+    {
+      "street": "Smocza"
+    },
+    {
+      "street": "Smoluchowskiego"
+    },
+    {
+      "street": "Smugowa"
+    },
+    {
+      "street": "Sobieskiego"
+    },
+    {
+      "street": "Sobików"
+    },
+    {
+      "street": "Sobocka"
+    },
+    {
+      "street": "Sochaczewska"
+    },
+    {
+      "street": "Sokola"
+    },
+    {
+      "street": "Sokołowska"
+    },
+    {
+      "street": "Sokołowskiego"
+    },
+    {
+      "street": "Sokratesa"
+    },
+    {
+      "street": "Solec"
+    },
+    {
+      "street": "Solidarności"
+    },
+    {
+      "street": "Solidna"
+    },
+    {
+      "street": "Sołecka"
+    },
+    {
+      "street": "Sołtyka"
+    },
+    {
+      "street": "Sosenkowa"
+    },
+    {
+      "street": "Sosnkowskiego"
+    },
+    {
+      "street": "Sosnowa"
+    },
+    {
+      "street": "Sowińskiego"
+    },
+    {
+      "street": "Sójki"
+    },
+    {
+      "street": "Spacerowa"
+    },
+    {
+      "street": "Spadowa"
+    },
+    {
+      "street": "Spalinowa"
+    },
+    {
+      "street": "Spartańska"
+    },
+    {
+      "street": "Spichrzowa"
+    },
+    {
+      "street": "Spiralna"
+    },
+    {
+      "street": "Spisaka"
+    },
+    {
+      "street": "Spiska"
+    },
+    {
+      "street": "Spokojna"
+    },
+    {
+      "street": "Sportowa"
+    },
+    {
+      "street": "Spółdzielnia"
+    },
+    {
+      "street": "Spółdzielnia Noma"
+    },
+    {
+      "street": "Srebrnych Świerków"
+    },
+    {
+      "street": "Stacja Krwiodawstwa"
+    },
+    {
+      "street": "Stadion"
+    },
+    {
+      "street": "Stadion Narodowy"
+    },
+    {
+      "street": "Staniewicka"
+    },
+    {
+      "street": "Stanisławów"
+    },
+    {
+      "street": "Stara"
+    },
+    {
+      "street": "Stara Miłosna (Graniczna)"
+    },
+    {
+      "street": "Stara Miłosna (Ułańska)"
+    },
+    {
+      "street": "Stara Wieś"
+    },
+    {
+      "street": "Stare Bemowo"
+    },
+    {
+      "street": "Stare Bielany"
+    },
+    {
+      "street": "Stare Grabie"
+    },
+    {
+      "street": "Stare Grabie-Szkoła"
+    },
+    {
+      "street": "Stare Grabie II"
+    },
+    {
+      "street": "Stare Kabaty"
+    },
+    {
+      "street": "Stare Lipiny"
+    },
+    {
+      "street": "Stare Miasto"
+    },
+    {
+      "street": "Stare Świdry"
+    },
+    {
+      "street": "Stare Załubice"
+    },
+    {
+      "street": "Starego Dębu"
+    },
+    {
+      "street": "Starochylicka"
+    },
+    {
+      "street": "Starodęby"
+    },
+    {
+      "street": "Starostwo"
+    },
+    {
+      "street": "Starostwo Powiatowe"
+    },
+    {
+      "street": "Starowiejska"
+    },
+    {
+      "street": "Stary Sękocin"
+    },
+    {
+      "street": "Starzyńskiego"
+    },
+    {
+      "street": "Staszica"
+    },
+    {
+      "street": "Statkowskiego"
+    },
+    {
+      "street": "Stawki"
+    },
+    {
+      "street": "Stawowa"
+    },
+    {
+      "street": "Stawy"
+    },
+    {
+      "street": "Stefana Batorego"
+    },
+    {
+      "street": "Stefanika"
+    },
+    {
+      "street": "Stefanów"
+    },
+    {
+      "street": "Stefanówka"
+    },
+    {
+      "street": "Stegny"
+    },
+    {
+      "street": "Sternicza"
+    },
+    {
+      "street": "Stępińska"
+    },
+    {
+      "street": "Stężycka"
+    },
+    {
+      "street": "Stocer"
+    },
+    {
+      "street": "Stoczniowców"
+    },
+    {
+      "street": "Stoicka"
+    },
+    {
+      "street": "Stokłosy"
+    },
+    {
+      "street": "Stokrotki"
+    },
+    {
+      "street": "Stolbud"
+    },
+    {
+      "street": "Strażacka"
+    },
+    {
+      "street": "Strąkowa"
+    },
+    {
+      "street": "Strefa Przemysłowa"
+    },
+    {
+      "street": "Struga"
+    },
+    {
+      "street": "Strumykowa"
+    },
+    {
+      "street": "Strusia"
+    },
+    {
+      "street": "Strużańska"
+    },
+    {
+      "street": "Strużańska-Fabryki"
+    },
+    {
+      "street": "Stryjeńskich"
+    },
+    {
+      "street": "Strzelecka"
+    },
+    {
+      "street": "Strzeleckiego"
+    },
+    {
+      "street": "Strzygłowska"
+    },
+    {
+      "street": "Strzykuły"
+    },
+    {
+      "street": "Suchocin"
+    },
+    {
+      "street": "Suchy Las"
+    },
+    {
+      "street": "Sue Ryder"
+    },
+    {
+      "street": "Sulejówek"
+    },
+    {
+      "street": "Sulejówek Miłosna"
+    },
+    {
+      "street": "Sulejówek Miłosna-Pomnik"
+    },
+    {
+      "street": "Suwak"
+    },
+    {
+      "street": "Suzina"
+    },
+    {
+      "street": "Sympatyczna"
+    },
+    {
+      "street": "Synów Pułku"
+    },
+    {
+      "street": "Sypniewska"
+    },
+    {
+      "street": "Syta"
+    },
+    {
+      "street": "Szachowa"
+    },
+    {
+      "street": "Szafarzy"
+    },
+    {
+      "street": "Szamocin"
+    },
+    {
+      "street": "Szamoty"
+    },
+    {
+      "street": "Szancera"
+    },
+    {
+      "street": "Szarady"
+    },
+    {
+      "street": "Szarych Szeregów"
+    },
+    {
+      "street": "Szaserów"
+    },
+    {
+      "street": "Szaserów-Szpital"
+    },
+    {
+      "street": "Szczaki"
+    },
+    {
+      "street": "Szczęśliwice"
+    },
+    {
+      "street": "Szczęśliwicka"
+    },
+    {
+      "street": "Szekspira"
+    },
+    {
+      "street": "Szeligowska-Wiadukt"
+    },
+    {
+      "street": "Szeroka"
+    },
+    {
+      "street": "Szklarniowa"
+    },
+    {
+      "street": "Szkolna"
+    },
+    {
+      "street": "Szkoła"
+    },
+    {
+      "street": "Szlachecka"
+    },
+    {
+      "street": "Szobera"
+    },
+    {
+      "street": "Szolc-Rogozińskiego"
+    },
+    {
+      "street": "szosa lubelska"
+    },
+    {
+      "street": "Szpital"
+    },
+    {
+      "street": "Szpital Bielański"
+    },
+    {
+      "street": "Szpital Bródnowski"
+    },
+    {
+      "street": "Szpital Grochowski"
+    },
+    {
+      "street": "Szpital Onkologiczny"
+    },
+    {
+      "street": "Szpital Powiatowy"
+    },
+    {
+      "street": "Szpital Wolski"
+    },
+    {
+      "street": "Szpitalna"
+    },
+    {
+      "street": "Szpruch"
+    },
+    {
+      "street": "Szuberta"
+    },
+    {
+      "street": "Szwedzka"
+    },
+    {
+      "street": "Szwoleżerów"
+    },
+    {
+      "street": "Szymanowskiego"
+    },
+    {
+      "street": "Szymanów"
+    },
+    {
+      "street": "Szymańskiego"
+    },
+    {
+      "street": "Szyszaków"
+    },
+    {
+      "street": "Szyszkowa"
+    },
+    {
+      "street": "Śliwice"
+    },
+    {
+      "street": "Śmigielska"
+    },
+    {
+      "street": "Śmigłowca"
+    },
+    {
+      "street": "Śniadeckich"
+    },
+    {
+      "street": "Śniegockiej"
+    },
+    {
+      "street": "Śnieżna"
+    },
+    {
+      "street": "Śpiewaków"
+    },
+    {
+      "street": "Śreniawitów"
+    },
+    {
+      "street": "Środkowa"
+    },
+    {
+      "street": "Śródborów"
+    },
+    {
+      "street": "św.A.Boboli"
+    },
+    {
+      "street": "św.Bonifacego"
+    },
+    {
+      "street": "św.Wincentego"
+    },
+    {
+      "street": "Świątynia Opatrzności Bożej"
+    },
+    {
+      "street": "Świder"
+    },
+    {
+      "street": "Świder-Kościół"
+    },
+    {
+      "street": "Świderska"
+    },
+    {
+      "street": "Świdry Małe"
+    },
+    {
+      "street": "Świdry Wielkie"
+    },
+    {
+      "street": "Świecka"
+    },
+    {
+      "street": "Świerk"
+    },
+    {
+      "street": "Świerk-Szkoła"
+    },
+    {
+      "street": "Świerkowa"
+    },
+    {
+      "street": "Święcicka"
+    },
+    {
+      "street": "Świętojerska"
+    },
+    {
+      "street": "Świętokrzyska"
+    },
+    {
+      "street": "Tabita"
+    },
+    {
+      "street": "Taborowa"
+    },
+    {
+      "street": "Tadżycka"
+    },
+    {
+      "street": "Tagore'a"
+    },
+    {
+      "street": "Talarowa"
+    },
+    {
+      "street": "Taneczna"
+    },
+    {
+      "street": "Tango"
+    },
+    {
+      "street": "Tarchomin"
+    },
+    {
+      "street": "Tarchomin Kościelny"
+    },
+    {
+      "street": "Targówek-Ratusz"
+    },
+    {
+      "street": "Tarniny"
+    },
+    {
+      "street": "Tarnowiecka"
+    },
+    {
+      "street": "Tatarska"
+    },
+    {
+      "street": "Tatrzańska"
+    },
+    {
+      "street": "Tawułkowa"
+    },
+    {
+      "street": "Teatr Komedia"
+    },
+    {
+      "street": "Techników"
+    },
+    {
+      "street": "Teklin"
+    },
+    {
+      "street": "Teklin-Szpital"
+    },
+    {
+      "street": "Teklin II"
+    },
+    {
+      "street": "Telewizja Polska"
+    },
+    {
+      "street": "Teligi"
+    },
+    {
+      "street": "Terespolska"
+    },
+    {
+      "street": "Terminal Autokarowy"
+    },
+    {
+      "street": "Terminal Cargo"
+    },
+    {
+      "street": "Thomme"
+    },
+    {
+      "street": "Tkaczy"
+    },
+    {
+      "street": "Tłuchowska"
+    },
+    {
+      "street": "Tolak"
+    },
+    {
+      "street": "Tołstoja"
+    },
+    {
+      "street": "Tomaszew"
+    },
+    {
+      "street": "Tomaszowska"
+    },
+    {
+      "street": "Topiel"
+    },
+    {
+      "street": "Topograficzna"
+    },
+    {
+      "street": "Topolowa"
+    },
+    {
+      "street": "Tor Kolarski"
+    },
+    {
+      "street": "Tor Stegny"
+    },
+    {
+      "street": "Torfowa"
+    },
+    {
+      "street": "Toruńska"
+    },
+    {
+      "street": "Torwar"
+    },
+    {
+      "street": "Trakt Królewski"
+    },
+    {
+      "street": "Trakt Lubelski"
+    },
+    {
+      "street": "Trakt Lubelski-Las"
+    },
+    {
+      "street": "Tramwajowa"
+    },
+    {
+      "street": "Trasa Łazienkowska"
+    },
+    {
+      "street": "Traugutta"
+    },
+    {
+      "street": "Trawiasta"
+    },
+    {
+      "street": "Trenów"
+    },
+    {
+      "street": "Trenów-Las"
+    },
+    {
+      "street": "Trombity"
+    },
+    {
+      "street": "Truskawiecka"
+    },
+    {
+      "street": "Trzeciakowskich"
+    },
+    {
+      "street": "Trzykrotki"
+    },
+    {
+      "street": "Tulipanowa"
+    },
+    {
+      "street": "Tułowicka"
+    },
+    {
+      "street": "Turkawki"
+    },
+    {
+      "street": "Turmoncka"
+    },
+    {
+      "street": "Turowice"
+    },
+    {
+      "street": "Turowska"
+    },
+    {
+      "street": "Turów"
+    },
+    {
+      "street": "Turów II"
+    },
+    {
+      "street": "Tuzinowa"
+    },
+    {
+      "street": "Tużycka"
+    },
+    {
+      "street": "Twardowska"
+    },
+    {
+      "street": "Tylżycka"
+    },
+    {
+      "street": "Tymotki"
+    },
+    {
+      "street": "Tysiąclecia"
+    },
+    {
+      "street": "Tytułowa"
+    },
+    {
+      "street": "UKSW"
+    },
+    {
+      "street": "Ułanów Jazłowieckich"
+    },
+    {
+      "street": "Umiastowska"
+    },
+    {
+      "street": "Umiastowska-Cmentarz"
+    },
+    {
+      "street": "Umiastów"
+    },
+    {
+      "street": "Umińskiego"
+    },
+    {
+      "street": "Uniwersytet"
+    },
+    {
+      "street": "Uniwersytet Medyczny"
+    },
+    {
+      "street": "Urbanistów"
+    },
+    {
+      "street": "Urocza"
+    },
+    {
+      "street": "Ursus-Niedźwiadek"
+    },
+    {
+      "street": "Ursus-Ratusz"
+    },
+    {
+      "street": "Ursus-Sanktuarium"
+    },
+    {
+      "street": "Ursynów"
+    },
+    {
+      "street": "Ursynów Płd."
+    },
+    {
+      "street": "Ursynów Płn."
+    },
+    {
+      "street": "Ursynów Zach."
+    },
+    {
+      "street": "Urząd Gminy"
+    },
+    {
+      "street": "Urząd Miasta"
+    },
+    {
+      "street": "Urząd Skarbowy"
+    },
+    {
+      "street": "Urząd Statystyczny"
+    },
+    {
+      "street": "Urzut"
+    },
+    {
+      "street": "Utrata"
+    },
+    {
+      "street": "Utrata-Urząd Celny"
+    },
+    {
+      "street": "Uwieliny-Szkoła"
+    },
+    {
+      "street": "Vivaldiego"
+    },
+    {
+      "street": "Vogla"
+    },
+    {
+      "street": "Vogla-Morysin"
+    },
+    {
+      "street": "Waflowa"
+    },
+    {
+      "street": "Wagonownia"
+    },
+    {
+      "street": "Walecznych"
+    },
+    {
+      "street": "Walerego Sławka"
+    },
+    {
+      "street": "Walewska"
+    },
+    {
+      "street": "Walewskiej"
+    },
+    {
+      "street": "Wał Gocławski"
+    },
+    {
+      "street": "Wał Miedzeszyński"
+    },
+    {
+      "street": "Wałbrzyska-Cmentarz"
+    },
+    {
+      "street": "Wałowicka"
+    },
+    {
+      "street": "Wałuszewska"
+    },
+    {
+      "street": "Waniliowa"
+    },
+    {
+      "street": "Wapowskiego"
+    },
+    {
+      "street": "Warchałowskiego"
+    },
+    {
+      "street": "Warecka"
+    },
+    {
+      "street": "Warneńska"
+    },
+    {
+      "street": "Warszawa Al.Jerozolimskie"
+    },
+    {
+      "street": "Warszawa Anin"
+    },
+    {
+      "street": "Warszawa Centralna"
+    },
+    {
+      "street": "Warszawa Choszczówka"
+    },
+    {
+      "street": "Warszawa Dawidy"
+    },
+    {
+      "street": "Warszawa Falenica"
+    },
+    {
+      "street": "Warszawa Gdańska"
+    },
+    {
+      "street": "Warszawa Gocławek"
+    },
+    {
+      "street": "Warszawa Gołąbki"
+    },
+    {
+      "street": "Warszawa Jeziorki"
+    },
+    {
+      "street": "Warszawa Koło"
+    },
+    {
+      "street": "Warszawa Lotnisko Chopina"
+    },
+    {
+      "street": "Warszawa Miedzeszyn"
+    },
+    {
+      "street": "Warszawa Międzylesie"
+    },
+    {
+      "street": "Warszawa Młynów"
+    },
+    {
+      "street": "Warszawa Mokry Ług"
+    },
+    {
+      "street": "Warszawa Ochota"
+    },
+    {
+      "street": "Warszawa Ochota WKD"
+    },
+    {
+      "street": "Warszawa Okęcie"
+    },
+    {
+      "street": "Warszawa Olszynka Grochowska"
+    },
+    {
+      "street": "Warszawa Płudy"
+    },
+    {
+      "street": "Warszawa Powązki"
+    },
+    {
+      "street": "Warszawa Powiśle"
+    },
+    {
+      "street": "Warszawa Praga"
+    },
+    {
+      "street": "Warszawa Radość"
+    },
+    {
+      "street": "Warszawa Rakowiec"
+    },
+    {
+      "street": "Warszawa Raków"
+    },
+    {
+      "street": "Warszawa Reduta Ordona"
+    },
+    {
+      "street": "Warszawa Rembertów"
+    },
+    {
+      "street": "Warszawa Salomea"
+    },
+    {
+      "street": "Warszawa Służewiec"
+    },
+    {
+      "street": "Warszawa Stadion"
+    },
+    {
+      "street": "Warszawa Śródmieście"
+    },
+    {
+      "street": "Warszawa Śródmieście WKD"
+    },
+    {
+      "street": "Warszawa Toruńska"
+    },
+    {
+      "street": "Warszawa Ursus"
+    },
+    {
+      "street": "Warszawa Ursus-Niedźwiadek"
+    },
+    {
+      "street": "Warszawa Ursus Płn."
+    },
+    {
+      "street": "Warszawa Wawer"
+    },
+    {
+      "street": "Warszawa Wesoła"
+    },
+    {
+      "street": "Warszawa Wileńska"
+    },
+    {
+      "street": "Warszawa Włochy"
+    },
+    {
+      "street": "Warszawa Wola"
+    },
+    {
+      "street": "Warszawa Wola Grzybowska"
+    },
+    {
+      "street": "Warszawa Wschodnia"
+    },
+    {
+      "street": "Warszawa Zachodnia"
+    },
+    {
+      "street": "Warszawa Zachodnia (Peron 8)"
+    },
+    {
+      "street": "Warszawa Zachodnia WKD"
+    },
+    {
+      "street": "Warszawa Zacisze-Wilno"
+    },
+    {
+      "street": "Warszawa ZOO"
+    },
+    {
+      "street": "Warszawa Żerań"
+    },
+    {
+      "street": "Warszawa Żwirki i Wigury"
+    },
+    {
+      "street": "Warszawska"
+    },
+    {
+      "street": "Wartka"
+    },
+    {
+      "street": "Waryńskiego"
+    },
+    {
+      "street": "Warzelnicza"
+    },
+    {
+      "street": "Warzelnicza-Szkoła"
+    },
+    {
+      "street": "Wasilkowska"
+    },
+    {
+      "street": "WAT"
+    },
+    {
+      "street": "Wawelska"
+    },
+    {
+      "street": "Wawer-Ratusz"
+    },
+    {
+      "street": "Wawerska"
+    },
+    {
+      "street": "Wawrzyszew"
+    },
+    {
+      "street": "Wawrzyszewska"
+    },
+    {
+      "street": "Wąska"
+    },
+    {
+      "street": "Wąwozowa"
+    },
+    {
+      "street": "Wczasowa"
+    },
+    {
+      "street": "WDW Rynia"
+    },
+    {
+      "street": "Wenecka"
+    },
+    {
+      "street": "Wenus"
+    },
+    {
+      "street": "Wersalska"
+    },
+    {
+      "street": "Wesoła"
+    },
+    {
+      "street": "Wesoła-Ratusz"
+    },
+    {
+      "street": "Weteranów"
+    },
+    {
+      "street": "Wędkarska"
+    },
+    {
+      "street": "Węzeł Nadarzyn"
+    },
+    {
+      "street": "Wiatraczna"
+    },
+    {
+      "street": "Wiązana"
+    },
+    {
+      "street": "Wichrowa"
+    },
+    {
+      "street": "Widawska"
+    },
+    {
+      "street": "Widokowa"
+    },
+    {
+      "street": "Wiechy"
+    },
+    {
+      "street": "Wiedeńska"
+    },
+    {
+      "street": "Wiejca I"
+    },
+    {
+      "street": "Wiejca II"
+    },
+    {
+      "street": "Wiejca III"
+    },
+    {
+      "street": "Wiejska"
+    },
+    {
+      "street": "Wiekowej Sosny"
+    },
+    {
+      "street": "Wielicka"
+    },
+    {
+      "street": "Wieliszew"
+    },
+    {
+      "street": "Wieliszew-Plaża"
+    },
+    {
+      "street": "Wielkiego Dębu"
+    },
+    {
+      "street": "Wielowiejska"
+    },
+    {
+      "street": "Wierna"
+    },
+    {
+      "street": "Wiertnicza"
+    },
+    {
+      "street": "Wieruchowska"
+    },
+    {
+      "street": "Wieruchów"
+    },
+    {
+      "street": "Wierzbin"
+    },
+    {
+      "street": "Wierzbno"
+    },
+    {
+      "street": "Wierzbowa"
+    },
+    {
+      "street": "Wierzchowskiego"
+    },
+    {
+      "street": "Wiesiołka"
+    },
+    {
+      "street": "Wilanowska"
+    },
+    {
+      "street": "Wilanów"
+    },
+    {
+      "street": "Wilanówka"
+    },
+    {
+      "street": "Wilcza Góra"
+    },
+    {
+      "street": "Wilkowa Wieś I"
+    },
+    {
+      "street": "Wilkowa Wieś II"
+    },
+    {
+      "street": "Wilkowiecka"
+    },
+    {
+      "street": "Willowa"
+    },
+    {
+      "street": "Wilsona"
+    },
+    {
+      "street": "Wincentów I"
+    },
+    {
+      "street": "Wincentów II"
+    },
+    {
+      "street": "Winnica"
+    },
+    {
+      "street": "Winogronowa"
+    },
+    {
+      "street": "Wiolinowa"
+    },
+    {
+      "street": "Wiosenna"
+    },
+    {
+      "street": "Wirażowa"
+    },
+    {
+      "street": "Wiślana"
+    },
+    {
+      "street": "Wiślicka"
+    },
+    {
+      "street": "Wiśniowa"
+    },
+    {
+      "street": "Wiśniowa Góra"
+    },
+    {
+      "street": "Witolin"
+    },
+    {
+      "street": "Witwickiego"
+    },
+    {
+      "street": "WKD Opacz"
+    },
+    {
+      "street": "WKD Raków"
+    },
+    {
+      "street": "Władysława Hermana"
+    },
+    {
+      "street": "Władysławów"
+    },
+    {
+      "street": "Włochy-Ratusz"
+    },
+    {
+      "street": "Włościańska"
+    },
+    {
+      "street": "Wodniaków"
+    },
+    {
+      "street": "Wodociąg Płn."
+    },
+    {
+      "street": "Wojciechowskiego"
+    },
+    {
+      "street": "Wojcieszyn"
+    },
+    {
+      "street": "Wojcieszyn-ARiMR"
+    },
+    {
+      "street": "Wojcieszyn-Górki"
+    },
+    {
+      "street": "Wojewódzka"
+    },
+    {
+      "street": "Wojnicka"
+    },
+    {
+      "street": "Wojska Polskiego"
+    },
+    {
+      "street": "Wojsławicka"
+    },
+    {
+      "street": "Wola-Ratusz"
+    },
+    {
+      "street": "Wola Grzybowska"
+    },
+    {
+      "street": "Wola Karczewska"
+    },
+    {
+      "street": "Wola Krakowiańska"
+    },
+    {
+      "street": "Wola Mrokowska"
+    },
+    {
+      "street": "Wolica"
+    },
+    {
+      "street": "Wolica k.Płochocina"
+    },
+    {
+      "street": "Wolności"
+    },
+    {
+      "street": "Wolska"
+    },
+    {
+      "street": "Wolska I"
+    },
+    {
+      "street": "Wolska II"
+    },
+    {
+      "street": "Wolska III"
+    },
+    {
+      "street": "Wołodyjowskiego"
+    },
+    {
+      "street": "Wołomin"
+    },
+    {
+      "street": "Wołomin Słoneczna"
+    },
+    {
+      "street": "Wołomińska"
+    },
+    {
+      "street": "Wołoska"
+    },
+    {
+      "street": "Wołoska-Szpital"
+    },
+    {
+      "street": "Woronicza"
+    },
+    {
+      "street": "Wólczyńska"
+    },
+    {
+      "street": "Wólczyńska-Bocznica"
+    },
+    {
+      "street": "Wólka"
+    },
+    {
+      "street": "Wólka Dworska"
+    },
+    {
+      "street": "Wólka Dworska-Wisła"
+    },
+    {
+      "street": "Wólka Kosowska"
+    },
+    {
+      "street": "Wólka Mlądzka"
+    },
+    {
+      "street": "Wólka Pęcherska"
+    },
+    {
+      "street": "Wólka Węglowa"
+    },
+    {
+      "street": "Wólka Załęska"
+    },
+    {
+      "street": "Wrocławska"
+    },
+    {
+      "street": "Wronia"
+    },
+    {
+      "street": "Wróbla"
+    },
+    {
+      "street": "Wróblewskiego"
+    },
+    {
+      "street": "Wrzeciono"
+    },
+    {
+      "street": "Wrzosowa"
+    },
+    {
+      "street": "Wspólna"
+    },
+    {
+      "street": "Wspólna Droga"
+    },
+    {
+      "street": "Współczesna"
+    },
+    {
+      "street": "Wybrzeże Helskie"
+    },
+    {
+      "street": "Wybrzeże Szczecińskie"
+    },
+    {
+      "street": "Wyczółki"
+    },
+    {
+      "street": "WYDZIAŁ WŁOŚCIAŃSKA"
+    },
+    {
+      "street": "Wyględowska"
+    },
+    {
+      "street": "Wyględy"
+    },
+    {
+      "street": "Wygoda"
+    },
+    {
+      "street": "Wyjazd"
+    },
+    {
+      "street": "Wynalazek"
+    },
+    {
+      "street": "Wypoczynkowa"
+    },
+    {
+      "street": "Wyspiańskiego"
+    },
+    {
+      "street": "Wyszkowska"
+    },
+    {
+      "street": "Wyszogrodzka"
+    },
+    {
+      "street": "Wyszyńskiego"
+    },
+    {
+      "street": "Wyścigi"
+    },
+    {
+      "street": "XXI Wieku"
+    },
+    {
+      "street": "Zabłudowska"
+    },
+    {
+      "street": "Zaborowska"
+    },
+    {
+      "street": "Zaborów-Szkoła"
+    },
+    {
+      "street": "Zaborówek-Osiedle"
+    },
+    {
+      "street": "Zaborówek-Wieś"
+    },
+    {
+      "street": "Zabraniecka"
+    },
+    {
+      "street": "Zabraniecka-Bocznica"
+    },
+    {
+      "street": "Zabraniecka-Magazyny"
+    },
+    {
+      "street": "Zachęta"
+    },
+    {
+      "street": "Zachodnia"
+    },
+    {
+      "street": "Zacisze"
+    },
+    {
+      "street": "Zadębie"
+    },
+    {
+      "street": "Zagłoby"
+    },
+    {
+      "street": "Zagościniec"
+    },
+    {
+      "street": "Zagościniec-Szkoła"
+    },
+    {
+      "street": "Zagórzańska"
+    },
+    {
+      "street": "Zagórze-Sanatorium"
+    },
+    {
+      "street": "Zajezdnia Kleszczowa"
+    },
+    {
+      "street": "Zajezdnia Ostrobramska"
+    },
+    {
+      "street": "Zajezdnia Praga"
+    },
+    {
+      "street": "Zajezdnia Redutowa"
+    },
+    {
+      "street": "Zajezdnia Stalowa"
+    },
+    {
+      "street": "Zajezdnia Ursus Płn."
+    },
+    {
+      "street": "Zajezdnia Wola"
+    },
+    {
+      "street": "Zajezdnia Woronicza"
+    },
+    {
+      "street": "Zajezdnia Żoliborz"
+    },
+    {
+      "street": "Zajęcza"
+    },
+    {
+      "street": "Zakamarek"
+    },
+    {
+      "street": "Zakłady Zbożowe"
+    },
+    {
+      "street": "Zakrętowa"
+    },
+    {
+      "street": "Zakrzewska"
+    },
+    {
+      "street": "Zalasek"
+    },
+    {
+      "street": "Zalesie"
+    },
+    {
+      "street": "Zalesie Dolne"
+    },
+    {
+      "street": "Zalesie Górne"
+    },
+    {
+      "street": "Zalesinek"
+    },
+    {
+      "street": "Zaleśna"
+    },
+    {
+      "street": "Załubice-Poczta"
+    },
+    {
+      "street": "Załubice-Szkoła"
+    },
+    {
+      "street": "Załuskiego-Szkoła"
+    },
+    {
+      "street": "Zamenhofa"
+    },
+    {
+      "street": "Zamienie"
+    },
+    {
+      "street": "Zamieniecka"
+    },
+    {
+      "street": "Zaolziańska"
+    },
+    {
+      "street": "Zaplecze"
+    },
+    {
+      "street": "Zapustna"
+    },
+    {
+      "street": "Zaruby"
+    },
+    {
+      "street": "Zaruskiego"
+    },
+    {
+      "street": "Zasadowa"
+    },
+    {
+      "street": "Zasobna"
+    },
+    {
+      "street": "Zaściankowa"
+    },
+    {
+      "street": "Zaułek-Szkoła"
+    },
+    {
+      "street": "Zawady"
+    },
+    {
+      "street": "Zawadzka"
+    },
+    {
+      "street": "Zawodowa"
+    },
+    {
+      "street": "Zawodzie"
+    },
+    {
+      "street": "Ząbki"
+    },
+    {
+      "street": "Ząbkowska"
+    },
+    {
+      "street": "Zbaraska"
+    },
+    {
+      "street": "Zbójna Góra"
+    },
+    {
+      "street": "Zbójnogórska"
+    },
+    {
+      "street": "Zbyszka z Bogdańca"
+    },
+    {
+      "street": "Zdobywców Kosmosu"
+    },
+    {
+      "street": "Zdrojowa"
+    },
+    {
+      "street": "Zdziarska"
+    },
+    {
+      "street": "Zdziarska-Kanał"
+    },
+    {
+      "street": "ZEA KLESZCZOWA"
+    },
+    {
+      "street": "ZEA OSTROBRAMSKA"
+    },
+    {
+      "street": "ZEA REDUTOWA"
+    },
+    {
+      "street": "ZEA STALOWA"
+    },
+    {
+      "street": "ZEA WORONICZA"
+    },
+    {
+      "street": "Zegarynki"
+    },
+    {
+      "street": "Zegrze Płd."
+    },
+    {
+      "street": "Zegrzyńska"
+    },
+    {
+      "street": "Zegrzyńska-IMGW"
+    },
+    {
+      "street": "Zelwerowicza"
+    },
+    {
+      "street": "Zerzeń"
+    },
+    {
+      "street": "ZET MOKOTÓW"
+    },
+    {
+      "street": "ZET PRAGA"
+    },
+    {
+      "street": "ZET WOLA"
+    },
+    {
+      "street": "ZET ŻOLIBORZ"
+    },
+    {
+      "street": "ZGK"
+    },
+    {
+      "street": "Zgoda"
+    },
+    {
+      "street": "Zgorzała"
+    },
+    {
+      "street": "Zieleniecka"
+    },
+    {
+      "street": "Zielona"
+    },
+    {
+      "street": "Zielonej Gęsi"
+    },
+    {
+      "street": "Zielonka"
+    },
+    {
+      "street": "Zielonka Bankowa"
+    },
+    {
+      "street": "Zielonki"
+    },
+    {
+      "street": "Zielonki-Wieś"
+    },
+    {
+      "street": "Zimorodka"
+    },
+    {
+      "street": "Złota"
+    },
+    {
+      "street": "Złotej Jesieni"
+    },
+    {
+      "street": "Złotokłos"
+    },
+    {
+      "street": "Znana"
+    },
+    {
+      "street": "Zorzy"
+    },
+    {
+      "street": "ZUS"
+    },
+    {
+      "street": "Zwoleńska"
+    },
+    {
+      "street": "Zwycięzców"
+    },
+    {
+      "street": "Zygmunta"
+    },
+    {
+      "street": "Zyndrama z Maszkowic"
+    },
+    {
+      "street": "Źródlana"
+    },
+    {
+      "street": "Żabieniec"
+    },
+    {
+      "street": "Żanęcin"
+    },
+    {
+      "street": "Żerań FSO"
+    },
+    {
+      "street": "Żerań Wschodni"
+    },
+    {
+      "street": "Żeromskiego"
+    },
+    {
+      "street": "Żołnierska"
+    },
+    {
+      "street": "Żołny"
+    },
+    {
+      "street": "Żonkilowa"
+    },
+    {
+      "street": "Żółkiewskiego"
+    },
+    {
+      "street": "Żubrowa-UKSW"
+    },
+    {
+      "street": "Żupnicza"
+    },
+    {
+      "street": "Żuromińska"
+    },
+    {
+      "street": "Żwirowa"
+    },
+    {
+      "street": "Żymirskiego-Przychodnia"
+    },
+    {
+      "street": "Żyrardowska"
+    },
+    {
+      "street": "Żytnia"
+    },
+    {
+      "street": "Żywiecka"
+    },
+    {
+      "street": "Żyzna"
+    }
+   ]

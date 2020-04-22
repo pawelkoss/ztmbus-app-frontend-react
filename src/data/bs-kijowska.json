@@ -1,0 +1,103 @@
+{
+"result": [
+    {
+      "id": 1,
+      "direction": "al.Zieleniecka",
+      "lat": 52.248455,
+      "lon": 21.044827,
+      "pistil": 1,
+      "setof": 1001,
+      "street": "Kijowska",
+      "street_id": 2201,
+      "valid": "2019-11-16 00:00:00.0"
+    },
+    {
+      "id": 2,
+      "direction": "Ząbkowska",
+      "lat": 52.249078,
+      "lon": 21.044443,
+      "pistil": 2,
+      "setof": 1001,
+      "street": "Kijowska",
+      "street_id": 2201,
+      "valid": "2019-11-16 00:00:00.0"
+    },
+    {
+      "id": 3,
+      "direction": "al.Zieleniecka",
+      "lat": 52.248998,
+      "lon": 21.043983,
+      "pistil": 3,
+      "setof": 1001,
+      "street": "Kijowska",
+      "street_id": 2201,
+      "valid": "2019-11-16 00:00:00.0"
+    },
+    {
+      "id": 4,
+      "direction": "Ząbkowska",
+      "lat": 52.249905,
+      "lon": 21.041726,
+      "pistil": 4,
+      "setof": 1001,
+      "street": "Kijowska",
+      "street_id": 2201,
+      "valid": "2019-11-16 00:00:00.0"
+    },
+    {
+      "id": 5,
+      "direction": "al.Zieleniecka",
+      "lat": 52.250319,
+      "lon": 21.043861,
+      "pistil": 5,
+      "setof": 1001,
+      "street": "Kijowska",
+      "street_id": 1203,
+      "valid": "2019-11-16 00:00:00.0"
+    },
+    {
+      "id": 6,
+      "direction": "Dw.Wschodni (Kijowska)",
+      "lat": 52.250008,
+      "lon": 21.04371,
+      "pistil": 6,
+      "setof": 1001,
+      "street": "Kijowska",
+      "street_id": 1203,
+      "valid": "2019-11-16 00:00:00.0"
+    },
+    {
+      "id": 7,
+      "direction": "Ząbkowska",
+      "lat": 52.250228,
+      "lon": 21.04369,
+      "pistil": 7,
+      "setof": 1001,
+      "street": "Kijowska",
+      "street_id": 1203,
+      "valid": "2019-11-16 00:00:00.0"
+    },
+    {
+      "id": 8,
+      "direction": "Dw.Wschodni (Kijowska)",
+      "lat": 52.249944,
+      "lon": 21.044087,
+      "pistil": 8,
+      "setof": 1001,
+      "street": "Kijowska",
+      "street_id": 1203,
+      "valid": "2019-11-16 00:00:00.0"
+    },
+    {
+      "id": 9,
+      "direction": "Dw.Wschodni (Kijowska)",
+      "lat": 52.249944,
+      "lon": 21.044087,
+      "pistil": 88,
+      "setof": 1001,
+      "street": "Kijowska",
+      "street_id": 1203,
+      "valid": "2019-11-16 00:00:00.0"
+    }
+   ]
+}
