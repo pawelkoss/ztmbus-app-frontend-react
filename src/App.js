@@ -26,8 +26,9 @@ function Map() {
     const [mapCenter, setMapCenter] = useState({lat:52.237049, lng:21.017532});
     const [ownPosition, setOwnPosition] = useState({});
     
-    const [busLineForm, setBusLineForm] = useState('');
+    const [busLineForm, setBusLineForm] = useState('');   //checkInput in FormTabs
     const [btForm, setBtForm] = useState('');
+    const [ch, setCh] = useState([true, false]); 
     
 
  useEffect(() => {
@@ -76,6 +77,12 @@ if(busLine[0]!==null){
         event.target.name == 'bt' ? setBtForm(event.target.value) : null;
         console.log("on change z App");
         console.log(event.target.name + " : " + event.target.value);
+        console.log(`handleInputChange target.checked: ${event.target.checked}`);
+        if(event.target.checked){
+          if(event.target.value=='1') { setCh([true, false]); }
+          if(event.target.value=='2') { setCh([false, true]); }
+        }
+ 
       };
 
       const handleSubmit = (event)=>{
@@ -135,7 +142,7 @@ if(busLine[0]!==null){
         </InfoWindow>
       )}
     </GoogleMap>
-    <FormBusLine onInputChange={handleInputChange} onHandleSubmit={handleSubmit} valueProp={busLine} checkInput={busLineForm} />
+    <FormBusLine onInputChange={handleInputChange} onHandleSubmit={handleSubmit} valueProp={busLine} checkInput={busLineForm} ch={ch}/>
   </Fragment>
     
     );  //end return

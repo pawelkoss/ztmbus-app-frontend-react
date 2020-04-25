@@ -4,11 +4,11 @@ import { Tab } from 'semantic-ui-react';
 
 
 // komponent
-const FormBusLine = ({ valueProp, onInputChange, onHandleSubmit, checkInput })=> {
+const FormBusLine = ({ valueProp, onInputChange, onHandleSubmit, checkInput, ch })=> {
 
   // https://api.um.warszawa.pl/api/action/busestrams_get/?resource_id=f2e5503e927d-4ad3-9500-4ab9e55deb59&apikey=46657b26-69bc-489e-8985-e7e2c0422f72&type=2`, {mode: 'no-cors'})
 //const distinct = (value, index, self) => self.indexOf(value) === index;
-
+//const [ch, setCh] = useState([true, false]); 
 
 const parseDistinct = (listTab) => {
     const lines = listTab.map((item)=> item.Lines);
@@ -32,14 +32,11 @@ const getAllTramList =() => {
 
 const inputHandler = (event)=>{
   console.log("onInput z Form: " + checkInput);
-  if(event.target.name=='bt'){
-    if(event.target.value=='1') { setCh([true, false]); }
-    if(event.target.value=='2') { setCh([false, true]); }
-  }
+  
   console.log(event.target.name);
 };
 
-const [ch, setCh] = useState([false, false]); 
+
 const [btnDis, setBtnDis] = useState(true);
 useEffect(()=>{
   console.log(`useEffect, ${ch}, btnDis przed check: ${btnDis}, checkInput:${checkInput}`);
@@ -56,11 +53,11 @@ useEffect(() => {
 }, [] );
 
 const panes = [
-  { menuItem: 'Szukaj autobusu', render: () => <Tab.Pane> { 
+  { menuItem: 'Szukaj autobusu tramwaju', render: () => <Tab.Pane> { 
     <form onSubmit={onHandleSubmit} ><label>Podaj dostępny numer linii: </label>
-        <input type="text" name="bus" onInput={inputHandler} onChange={()=>onInputChange(event, )} value={checkInput} placeholder='wpisz numer ...' required />
-        Autobus <input type="radio" checked={ch[0]} name="bt" onInput={inputHandler} onChange={onInputChange} value='1' ></input>  | 
-        Tramwaj<input type="radio" checked={ch[1]}  name="bt" onInput={inputHandler} onChange={onInputChange} value='2' ></input>
+        <input type="text" name="bus" onInput={inputHandler} onChange={()=>onInputChange(event)} value={checkInput} placeholder='wpisz numer ...' required />
+        Autobus <input type="radio" checked={ch[0]} name="bt"  onChange={onInputChange} value='1' ></input>  | 
+        Tramwaj<input type="radio" checked={ch[1]}  name="bt"  onChange={onInputChange} value='2' ></input>
         <button type="submit" disabled={btnDis}> Pokaż na mapie </button>
     </form>
     
