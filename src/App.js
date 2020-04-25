@@ -60,7 +60,7 @@ function getByBusLine(line, bt) {
 
 
 const [busLine, setBusLine] = useState([null,'']);
-const [ch, setCh] = useState([]);
+
 
 useEffect(() => {
 if(busLine[0]!==null){
