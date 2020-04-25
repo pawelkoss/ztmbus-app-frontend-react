@@ -59,6 +59,7 @@ function getByBusLine(line, bt) {
 
 
 const [busLine, setBusLine] = useState([null,'']);
+const [ch, setCh] = useState([]);
 
 useEffect(() => {
 if(busLine[0]!==null){
@@ -76,6 +77,7 @@ if(busLine[0]!==null){
         event.target.name == 'bt' ? setBtForm(event.target.value) : null;
         console.log("on change z App");
         console.log(event.target.name + " : " + event.target.value);
+        
       };
 
       const handleSubmit = (event)=>{

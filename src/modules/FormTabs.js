@@ -31,15 +31,16 @@ const getAllTramList =() => {
 }
 
 const inputHandler = (event)=>{
-  console.log("onInput z Form: " + checkInput);
+  console.log("inputHandle: onInput z Form: " + checkInput);
   if(event.target.name=='bt'){
     if(event.target.value=='1') { setCh([true, false]); }
     if(event.target.value=='2') { setCh([false, true]); }
   }
-  console.log(event.target.name);
+  console.log(`inputHandler: ${event.target.name}`);
+  
 };
 
-const [ch, setCh] = useState([false, false]); 
+const [ch, setCh] = useState([true, false]); 
 const [btnDis, setBtnDis] = useState(true);
 useEffect(()=>{
   console.log(`useEffect, ${ch}, btnDis przed check: ${btnDis}, checkInput:${checkInput}`);
@@ -56,11 +57,11 @@ useEffect(() => {
 }, [] );
 
 const panes = [
-  { menuItem: 'Szukaj autobusu', render: () => <Tab.Pane> { 
+  { menuItem: 'Pokaż autobusy / tramwaje', render: () => <Tab.Pane> { 
     <form onSubmit={onHandleSubmit} ><label>Podaj dostępny numer linii: </label>
-        <input type="text" name="bus" onInput={inputHandler} onChange={()=>onInputChange(event, )} value={checkInput} placeholder='wpisz numer ...' required />
-        Autobus <input type="radio" checked={ch[0]} name="bt" onInput={inputHandler} onChange={onInputChange} value='1' ></input>  | 
-        Tramwaj<input type="radio" checked={ch[1]}  name="bt" onInput={inputHandler} onChange={onInputChange} value='2' ></input>
+        <input type="text" name="bus" onInput={inputHandler} onChange={()=>onInputChange(event)} value={checkInput} placeholder='wpisz numer ...' required />
+        Autobus <input type="radio" defaultChecked name="bt" onInput={inputHandler} onChange={onInputChange} value='1' ></input>  | 
+        Tramwaj<input type="radio"  name="bt" onInput={inputHandler} onChange={onInputChange} value='2' ></input>
         <button type="submit" disabled={btnDis}> Pokaż na mapie </button>
     </form>
     
