@@ -54,8 +54,8 @@ function Map() {
         
   useEffect(() => {
     console.log("hook resultBusStops");
-            console.log(resultBusStops);
-
+    console.log(resultBusStops);
+    resultBusStops.length>0 && setMapCenter({lat: +resultBusStops[0].lat, lng: +resultBusStops[0].lon});
             }, [resultBusStops]
         );
 
@@ -97,9 +97,9 @@ if(busLine[0]!==null){
         event.target.name == 'bus' ? setBusLineForm(event.target.value) : null;
         event.target.name == 'bt' ? setBtForm(event.target.value) : null;
         event.target.name == 'busstop' ? setBusStopForm(event.target.value) : null;
-        console.log("handleInputchange z App:");
-        console.log(event.target.name + " : " + event.target.value);
-        console.log(`handleInputChange target.checked: ${event.target.checked}`);
+        //console.log("handleInputchange z App:");
+        //console.log(event.target.name + " : " + event.target.value);
+        //console.log(`handleInputChange target.checked: ${event.target.checked}`);
         if(event.target.checked){
           if(event.target.value=='1') { setCh([true, false]); }
           if(event.target.value=='2') { setCh([false, true]); }
@@ -142,7 +142,21 @@ if(busLine[0]!==null){
                         
                     }}
                 />
-            ))            
+            ))
+      }  
+      {   
+        resultBusStops.map((busstop)=> (
+          
+          <Marker
+            key = {busstop.id}
+            position = {{ lat: +busstop.lat, lng: +busstop.lon}}
+            icon={{
+              url: `./../public/busstop-yr.svg`,
+              scaledSize: new window.google.maps.Size(25, 25)
+            }}
+
+          />
+        ))
       }
 
 
