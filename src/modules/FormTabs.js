@@ -4,7 +4,7 @@ import { Tab } from 'semantic-ui-react';
 
 
 // komponent
-const FormBusLine = ({ valueProp, onInputChange, onHandleSubmit, checkInput: busInput, ch })=> {
+const FormBusLine = ({ valueProp, onInputChange, onHandleSubmit, onHandleSubmitBusStop, checkInput: busInput, ch, busStopInput})=> {
 
   // https://api.um.warszawa.pl/api/action/busestrams_get/?resource_id=f2e5503e927d-4ad3-9500-4ab9e55deb59&apikey=46657b26-69bc-489e-8985-e7e2c0422f72&type=2`, {mode: 'no-cors'})
 //const distinct = (value, index, self) => self.indexOf(value) === index;
@@ -55,7 +55,7 @@ useEffect(() => {
 const panes = [
   { menuItem: 'Szukaj autobusu tramwaju', render: () => <Tab.Pane> { 
     <form onSubmit={onHandleSubmit} ><label>Podaj dostępny numer linii: </label>
-        <input type="text" name="bus" onInput={inputHandler} onChange={()=>onInputChange(event)} value={busInput} placeholder='wpisz numer ...' required />
+        <input type="text" name="bus" onInput={inputHandler} onChange={()=>onInputChange(event)} value={busInput} required placeholder='wpisz numer ...' />
         Autobus <input type="radio" checked={ch[0]} name="bt"  onChange={onInputChange} value='1' ></input>  | 
         Tramwaj<input type="radio" checked={ch[1]}  name="bt"  onChange={onInputChange} value='2' ></input>
         <button type="submit" disabled={btnDis}> Pokaż na mapie </button>
@@ -66,8 +66,9 @@ const panes = [
   { menuItem: 'Dostępne autobusy', render: () => <Tab.Pane>{ listBus.map((item, index) => (<button key={index} > {item} </button>) ) }</Tab.Pane> },
   { menuItem: 'Dostępne tramwaje', render: () => <Tab.Pane>{ listTram.map((item, index) => (<button key={index}> {item} </button>) ) }</Tab.Pane> },
   { menuItem: 'Pokaż przystanki', render: () => <Tab.Pane>{
-    <form onSubmit={onHandleSubmit} ><label>Nazwa przystanku lub ulicy </label>
-    <input type="text" name="busstop" onInput={inputHandler} onChange={onInputChange} value={}></input> <button> Pokaż przystanki </button>
+    <form onSubmit={onHandleSubmitBusStop} ><label>Nazwa przystanku lub ulicy </label>
+    <input type="text" name="busstop" onInput={inputHandler} onChange={onInputChange} value={busStopInput} required placeholder='wpisz nazwę ...'></input> 
+    <button type="submit"> Pokaż przystanki </button>
     </form>
   } </Tab.Pane> },
   { menuItem: 'Pokaz trasę linii', render: () => <Tab.Pane>Rysowanie trasy ...</Tab.Pane> }

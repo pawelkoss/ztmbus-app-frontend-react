@@ -22,11 +22,12 @@ function Map() {
     const [selectedBus, setSelectedBus] = useState(null);
     const [defZoom, setDefZoom] = useState(13);
     const [resultBus, setResultBus] = useState([]);
-    
+    const [resultBusStops, setResultBusStops] = useState([]);
     const [mapCenter, setMapCenter] = useState({lat:52.237049, lng:21.017532});
     const [ownPosition, setOwnPosition] = useState({});
     
     const [busLineForm, setBusLineForm] = useState('');   //checkInput in FormTabs
+    const [busStopForm, setBusStopForm] = useState('');
     const [btForm, setBtForm] = useState('');
     const [ch, setCh] = useState([true, false]); 
     
@@ -50,6 +51,14 @@ function Map() {
             }
             }, [resultBus]
         );
+        
+  useEffect(() => {
+    console.log("hook resultBusStops");
+            console.log(resultBusStops);
+
+            }, [resultBusStops]
+        );
+
 
 function getByBusLine(line, bt) {
   fetch(`http://localhost:8080/ztm/vehicles/${bt}/${line}`)
@@ -57,6 +66,17 @@ function getByBusLine(line, bt) {
               .then(json => setResultBus(json.result))
               .catch(error => console.log("Input data error", error))
 }
+
+function getByBusStopName(street) {
+  fetch(`http://localhost:8080/ztm/bus-stop/name-db/${street}`)
+              .then(response => response.ok ? response.json() : Promise.reject(response))
+              .then(json => setResultBusStops(json))
+              .catch(error => console.log("Input data error", error))
+
+}
+
+
+
 
 
 const [busLine, setBusLine] = useState([null,'']);
@@ -76,7 +96,8 @@ if(busLine[0]!==null){
       const handleInputChange = (event)=>{
         event.target.name == 'bus' ? setBusLineForm(event.target.value) : null;
         event.target.name == 'bt' ? setBtForm(event.target.value) : null;
-        console.log("on change z App");
+        event.target.name == 'busstop' ? setBusStopForm(event.target.value) : null;
+        console.log("handleInputchange z App:");
         console.log(event.target.name + " : " + event.target.value);
         console.log(`handleInputChange target.checked: ${event.target.checked}`);
         if(event.target.checked){
@@ -93,6 +114,13 @@ if(busLine[0]!==null){
         
         getByBusLine(busLineForm, btForm);
     };
+
+    const handleSubmitBusStop = (event)=>{
+      event.preventDefault();
+      console.log(`on submit busStop ${busStopForm}`);
+      getByBusStopName(busStopForm);
+      console.log(resultBusStops);
+    }
 
     return (<Fragment>
     <GoogleMap defaultZoom={defZoom} center={mapCenter} defaultOptions={{ style: mapStyles }}>
@@ -143,7 +171,7 @@ if(busLine[0]!==null){
         </InfoWindow>
       )}
     </GoogleMap>
-    <FormBusLine onInputChange={handleInputChange} onHandleSubmit={handleSubmit} valueProp={busLine} checkInput={busLineForm} ch={ch}/>
+    <FormBusLine onInputChange={handleInputChange} onHandleSubmit={handleSubmit} onHandleSubmitBusStop={handleSubmitBusStop} valueProp={busLine} checkInput={busLineForm} ch={ch} busStopInput={busStopForm}/>
   </Fragment>
     
     );  //end return
