@@ -20,16 +20,22 @@ import FormBusLine from './modules/FormTabs';
 
 function Map() {
     const [selectedBus, setSelectedBus] = useState(null);
+    const [selectedBusStop, setSelectedBusStop] = useState(null);
     const [defZoom, setDefZoom] = useState(13);
     const [resultBus, setResultBus] = useState([]);
     const [resultBusStops, setResultBusStops] = useState([]);
     const [mapCenter, setMapCenter] = useState({lat:52.237049, lng:21.017532});
+    const [currBusTime, setCurrBusTime] = useState('');
     const [ownPosition, setOwnPosition] = useState({});
     
     const [busLineForm, setBusLineForm] = useState('');   //checkInput in FormTabs
     const [busStopForm, setBusStopForm] = useState('');
-    const [btForm, setBtForm] = useState('');
+    const [btForm, setBtForm] = useState(1);
+    const [bt, setBt] = useState(1);
     const [ch, setCh] = useState([true, false]); 
+
+    const svgUrl = ['./../public/bus-red.svg', './../public/tram-yel.svg'];
+    const vehicle = ['Autobus','Tramwaj'];
     
 
  useEffect(() => {
@@ -45,9 +51,11 @@ function Map() {
    const [currVehNumber, setCurrVehNumber] = useState(null);
    useEffect(() => {
      console.log("hook sledzenie");
-            if(currVehNumber != null){
-            const busCenter = resultBus.filter((bus) => bus.VehicleNumber === currVehNumber)[0];
-            setMapCenter({lat:busCenter.Lat, lng:busCenter.Lon});
+            if(currVehNumber != null && resultBus.length>0){
+            const busCurrent = resultBus.filter((bus) => bus.VehicleNumber === currVehNumber)[0];
+            console.log(`current: ${busCurrent}`);
+            //setTimeout( setMapCenter({lat:busCurrent.Lat, lng:busCurrent.Lon}), 1000 );
+            setCurrBusTime(busCurrent.Time);
             }
             }, [resultBus]
         );
@@ -85,7 +93,7 @@ const [busLine, setBusLine] = useState([null,'']);
 useEffect(() => {
 if(busLine[0]!==null){
   const interval = setInterval(() => {
-    console.log('This will run every 10 seconds ' + busLine[0]);
+    console.log('Interval 10 seconds ' + busLine[0]);
     getByBusLine(busLine[0], busLine[1]);
   }, 10000);
   return () => clearInterval(interval);
@@ -109,7 +117,10 @@ if(busLine[0]!==null){
 
       const handleSubmit = (event)=>{
         event.preventDefault();
+        setCurrVehNumber(null);
+        setSelectedBus(null);
         setBusLine([busLineForm, btForm]);
+        setBt(btForm);
         console.log(`on submit & 1 getdata ${busLineForm} = ${busLine[0]} / ${btForm} = ${busLine[1]}`);
         
         getByBusLine(busLineForm, btForm);
@@ -135,9 +146,10 @@ if(busLine[0]!==null){
                         setMapCenter({ lat: bus.Lat, lng: bus.Lon });
                         //setDefZoom(14);
                         setCurrVehNumber(bus.VehicleNumber);
+                        setCurrBusTime(bus.Time);
                     }}
                     icon={{
-                        url: `./../public/bus.svg`,
+                        url: svgUrl[bt-1],
                         scaledSize: new window.google.maps.Size(25, 25)
                         
                     }}
@@ -150,6 +162,10 @@ if(busLine[0]!==null){
           <Marker
             key = {busstop.id}
             position = {{ lat: +busstop.lat, lng: +busstop.lon}}
+            onClick={() => {
+              setSelectedBusStop(busstop);
+              setMapCenter({ lat: busstop.lat, lng: busstop.lon });
+           }}
             icon={{
               url: `./../public/busstop-yr.svg`,
               scaledSize: new window.google.maps.Size(25, 25)
@@ -173,14 +189,12 @@ if(busLine[0]!==null){
             setSelectedBus(null);
             
           }}
-          position={{
-            lat: selectedBus.Lat,
-            lng: selectedBus.Lon
-          }}
+          position={mapCenter}
         >
           <div>
-             <p>{selectedBus.Lines}</p> 
-            <h2>{selectedBus.VehicleNumber}</h2>
+        <h1><small>{vehicle[bt-1]} </small>{selectedBus.Lines}</h1> 
+            <h3><small>Numer boczny: </small>{selectedBus.VehicleNumber}</h3>
+            <h4>Czas GPS: {currBusTime}</h4>
           </div>
         </InfoWindow>
       )}
