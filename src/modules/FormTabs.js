@@ -63,15 +63,14 @@ const panes = [
     
     } </Tab.Pane>  },
   
-  { menuItem: 'Dostępne autobusy', render: () => <Tab.Pane>{ listBus.map((item, index) => (<button key={index} > {item} </button>) ) }</Tab.Pane> },
-  { menuItem: 'Dostępne tramwaje', render: () => <Tab.Pane>{ listTram.map((item, index) => (<button key={index}> {item} </button>) ) }</Tab.Pane> },
+  //{ menuItem: 'Dostępne autobusy', render: () => <Tab.Pane>{ listBus.map((item, index) => (<button key={index} > {item} </button>) ) }</Tab.Pane> },
+  //{ menuItem: 'Dostępne tramwaje', render: () => <Tab.Pane>{ listTram.map((item, index) => (<button key={index}> {item} </button>) ) }</Tab.Pane> },
   { menuItem: 'Pokaż przystanki', render: () => <Tab.Pane>{
     <form onSubmit={onHandleSubmitBusStop} ><label>Nazwa przystanku lub ulicy </label>
     <input type="text" name="busstop" onInput={inputHandler} onChange={onInputChange} value={busStopInput} required placeholder='wpisz nazwę ...'></input> 
     <button type="submit"> Pokaż przystanki </button>
     </form>
   } </Tab.Pane> },
-  { menuItem: 'Pokaz trasę linii', render: () => <Tab.Pane>Rysowanie trasy ...</Tab.Pane> }
 ]
 
 return (

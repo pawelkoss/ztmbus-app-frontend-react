@@ -4,12 +4,14 @@ import {
   withScriptjs,
   GoogleMap,
   Marker,
-  InfoWindow
+  InfoWindow,
+  InfoBubble
 } from "react-google-maps";
 //import * as busData from "./data/bus172.json";
 import mapStyles from "./mapStyles";
 import FormBusLine from './modules/FormTabs';
 //import useInterval from './modules/CustomUseInterval';
+import  "../src/sidebar.css";
 
 
 
@@ -30,6 +32,7 @@ function Map() {
     
     const [busLineForm, setBusLineForm] = useState('');   //checkInput in FormTabs
     const [busStopForm, setBusStopForm] = useState('');
+    const [busLineList, setBusLineList] = useState([]);
     const [btForm, setBtForm] = useState(1);
     const [bt, setBt] = useState(1);
     const [ch, setCh] = useState([true, false]); 
@@ -37,6 +40,14 @@ function Map() {
     const svgUrl = ['./../public/bus-red.svg', './../public/tram-yel.svg'];
     const vehicle = ['Autobus','Tramwaj'];
     
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "20vw";
+      console.log(`openNav`)
+    }
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0px";
+      console.log(`close`);
+    }
 
  useEffect(() => {
             console.log("hook geolokacja");    
@@ -133,7 +144,24 @@ if(busLine[0]!==null){
       console.log(resultBusStops);
     }
 
+    const resolveBusStop = (busstop)=>{
+      setSelectedBusStop(busstop);
+      setMapCenter({ lat: +busstop.lat, lng: +busstop.lon });
+      fetch(`http://localhost:8080/ztm/timetable/${busstop.setof}/${busstop.pistil}`)
+      .then(response => response.ok ? response.json() : Promise.reject(response))
+      .then(json => setBusLineList(json.result))
+      .catch(error => console.log("Input data error", error))
+
+    }
+
+    const getLines = ()=>{
+      console.log("lista linii");
+    }
+ 
+    
+
     return (<Fragment>
+   
     <GoogleMap defaultZoom={defZoom} center={mapCenter} defaultOptions={{ style: mapStyles }}>
       {                   
        resultBus.map((bus) => (
@@ -163,9 +191,9 @@ if(busLine[0]!==null){
             key = {busstop.id}
             position = {{ lat: +busstop.lat, lng: +busstop.lon}}
             onClick={() => {
-              setSelectedBusStop(busstop);
-              setMapCenter({ lat: busstop.lat, lng: busstop.lon });
+              resolveBusStop(busstop);   
            }}
+
             icon={{
               url: `./../public/busstop-yr.svg`,
               scaledSize: new window.google.maps.Size(25, 25)
@@ -198,8 +226,41 @@ if(busLine[0]!==null){
           </div>
         </InfoWindow>
       )}
+      {selectedBusStop && (
+        <InfoWindow
+          onCloseClick={() => {
+            setDefZoom(12);  
+            setSelectedBusStop(null);
+            closeNav();
+          }}
+          position={mapCenter}
+        >
+
+          
+          <div>
+        <h2><small>Przystanek</small> {selectedBusStop.street} {selectedBusStop.pistil}</h2> 
+            <h3>Lista linii:</h3>
+           <button id="03" onClick={()=>openNav()}>122</button>
+          </div>
+        </InfoWindow>
+      )}
+
     </GoogleMap>
+
     <FormBusLine onInputChange={handleInputChange} onHandleSubmit={handleSubmit} onHandleSubmitBusStop={handleSubmitBusStop} valueProp={busLine} checkInput={busLineForm} ch={ch} busStopInput={busStopForm}/>
+  {selectedBusStop && (<Fragment><button onClick={openNav}>open</button>
+  <div id="mySidenav" class="sidenav">
+      <button id="close" class="closebtn" onClick={closeNav}>&times;</button>
+        <li>Przystanek: {selectedBusStop.street} {selectedBusStop.pistil}</li>
+        <li>Kierunek: {selectedBusStop.direction}</li>
+      <li>Linia: 122</li>
+      <li>Godziny odjazdów:</li>
+     </div>
+     </Fragment>
+     )}
+
+
+
   </Fragment>
     
     );  //end return
@@ -209,10 +270,14 @@ if(busLine[0]!==null){
 const WrappedMap = withScriptjs(withGoogleMap(Map));
 
 export function App(){
+ 
   
+  /* Set the width of the side navigation to 0 */
+
 
     return (
     <div style = {{ width: "90vw", height: "80vh"}}>
+ 
         <WrappedMap 
         googleMapURL={'https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyBT8TVVtOZRnXdn6DqGI0Md7yk6SGHu4pE'}
         loadingElement={<div style={{ height: `100%` }} />}
