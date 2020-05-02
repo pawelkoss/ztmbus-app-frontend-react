@@ -21,28 +21,45 @@ import  "../src/sidebar.css";
 //http://localhost:8080/ztm/vehicles/1/172
 
 function Map() {
+//  Zaznaczony pojazd, przystanek
     const [selectedBus, setSelectedBus] = useState(null);
     const [selectedBusStop, setSelectedBusStop] = useState(null);
-    const [defZoom, setDefZoom] = useState(13);
+    const [currBusTime, setCurrBusTime] = useState('');
+
+//  Lista pojazdów, przystanków, rozkład jazdy   
     const [resultBus, setResultBus] = useState([]);
     const [resultBusStops, setResultBusStops] = useState([]);
+    const [busLineList, setBusLineList] = useState([]);
+    const [busLineTimetable, setBusLineTimetable] = useState({line:"", timetable:[]});
+
+//  Ustawienia mapy
     const [mapCenter, setMapCenter] = useState({lat:52.237049, lng:21.017532});
-    const [currBusTime, setCurrBusTime] = useState('');
+    const [defZoom, setDefZoom] = useState(13);
     const [ownPosition, setOwnPosition] = useState({});
-    
+
+//  Formularze
     const [busLineForm, setBusLineForm] = useState('');   //checkInput in FormTabs
     const [busStopForm, setBusStopForm] = useState('');
-    const [busLineList, setBusLineList] = useState([]);
     const [btForm, setBtForm] = useState(1);
     const [bt, setBt] = useState(1);
     const [ch, setCh] = useState([true, false]); 
 
+
+
+    
+
     const svgUrl = ['./../public/bus-red.svg', './../public/tram-yel.svg'];
     const vehicle = ['Autobus','Tramwaj'];
     
-    function openNav() {
+    function openNav(line) {
       document.getElementById("mySidenav").style.width = "20vw";
-      console.log(`openNav`)
+      fetch(`http://localhost:8080/ztm/timetable/${selectedBusStop.setof}/${selectedBusStop.pistil}/${line}`)
+      .then(response => response.ok ? response.json() : Promise.reject(response))
+      .then(json => setBusLineTimetable({line: line, timetable: json.result}))
+      //.then(json => console.log(json.result))
+      .catch(error => console.log("Input data error", error))
+
+      console.log(`openNav ${line}`)
     }
     function closeNav() {
       document.getElementById("mySidenav").style.width = "0px";
@@ -142,16 +159,33 @@ if(busLine[0]!==null){
       console.log(`on submit busStop ${busStopForm}`);
       getByBusStopName(busStopForm);
       console.log(resultBusStops);
+      setSelectedBusStop(null);
+      setBusLineList([]);
     }
 
     const resolveBusStop = (busstop)=>{
       setSelectedBusStop(busstop);
       setMapCenter({ lat: +busstop.lat, lng: +busstop.lon });
+
       fetch(`http://localhost:8080/ztm/timetable/${busstop.setof}/${busstop.pistil}`)
       .then(response => response.ok ? response.json() : Promise.reject(response))
-      .then(json => setBusLineList(json.result))
+      .then(json => lineListGenerator(json.result))
       .catch(error => console.log("Input data error", error))
 
+      //console.log(error);
+      const lineListGenerator = (res) =>{
+        console.log(res);
+        let lineList = res.map(item=>item.values[0].value);
+        setBusLineList(lineList);
+        //let lineString='';
+        //for (let item of lineList) {
+        //  lineString += "<button id='"+item+"'>"+item+"</button>";
+       // }
+      
+        
+      }
+
+  
     }
 
     const getLines = ()=>{
@@ -160,9 +194,10 @@ if(busLine[0]!==null){
  
     
 
-    return (<Fragment>
+    return (
+    <Fragment>
    
-    <GoogleMap defaultZoom={defZoom} center={mapCenter} defaultOptions={{ style: mapStyles }}>
+      <GoogleMap defaultZoom={defZoom} center={mapCenter} defaultOptions={{ style: mapStyles }}>
       {                   
        resultBus.map((bus) => (
                 <Marker 
@@ -210,7 +245,7 @@ if(busLine[0]!==null){
         />
       }
 
-    {selectedBus && (
+      {selectedBus && (
         <InfoWindow
           onCloseClick={() => {
             setDefZoom(12);  
@@ -231,6 +266,7 @@ if(busLine[0]!==null){
           onCloseClick={() => {
             setDefZoom(12);  
             setSelectedBusStop(null);
+            setBusLineList([]);
             closeNav();
           }}
           position={mapCenter}
@@ -238,9 +274,12 @@ if(busLine[0]!==null){
 
           
           <div>
-        <h2><small>Przystanek</small> {selectedBusStop.street} {selectedBusStop.pistil}</h2> 
-            <h3>Lista linii:</h3>
-           <button id="03" onClick={()=>openNav()}>122</button>
+        <h3><small>Przystanek</small><br/>{selectedBusStop.street} {selectedBusStop.pistil}</h3> 
+            <h4>Lista linii:</h4>
+           
+           {
+             busLineList.map((item) => <button onClick={()=>openNav(item)}>{item}</button> )
+           }
           </div>
         </InfoWindow>
       )}
@@ -248,16 +287,22 @@ if(busLine[0]!==null){
     </GoogleMap>
 
     <FormBusLine onInputChange={handleInputChange} onHandleSubmit={handleSubmit} onHandleSubmitBusStop={handleSubmitBusStop} valueProp={busLine} checkInput={busLineForm} ch={ch} busStopInput={busStopForm}/>
-  {selectedBusStop && (<Fragment><button onClick={openNav}>open</button>
-  <div id="mySidenav" class="sidenav">
-      <button id="close" class="closebtn" onClick={closeNav}>&times;</button>
-        <li>Przystanek: {selectedBusStop.street} {selectedBusStop.pistil}</li>
-        <li>Kierunek: {selectedBusStop.direction}</li>
-      <li>Linia: 122</li>
-      <li>Godziny odjazdów:</li>
-     </div>
-     </Fragment>
-     )}
+    {selectedBusStop && (<Fragment><button onClick={openNav}>open</button>
+
+      <div id="mySidenav" className="sidenav">
+        <button id="close" className="closebtn" onClick={closeNav}>&times;</button>
+          <li>Przystanek: {selectedBusStop.street} {selectedBusStop.pistil}</li>
+          <li>Kierunek: {selectedBusStop.direction}</li>
+        <li>Linia: {busLineTimetable.line}</li>
+        <li>Godziny odjazdów:</li>
+        {
+          //.log(busLineTimetable.timetable)
+          busLineTimetable.timetable.map((item) => <li>{item.values[5].value}</li>)
+        }
+      </div>
+
+  </Fragment>
+  )}
 
 
 
