@@ -4,7 +4,7 @@ import { Tab } from 'semantic-ui-react';
 
 
 // komponent
-const FormBusLine = ({ valueProp, onInputChange, onHandleSubmit, onHandleSubmitBusStop, checkInput: busInput, ch, busStopInput})=> {
+const FormBusLine = ({ onInputChange, onHandleSubmit, onHandleSubmitBusStop, checkInput: busInput, ch, busStopInput})=> {
 
   // https://api.um.warszawa.pl/api/action/busestrams_get/?resource_id=f2e5503e927d-4ad3-9500-4ab9e55deb59&apikey=46657b26-69bc-489e-8985-e7e2c0422f72&type=2`, {mode: 'no-cors'})
 //const distinct = (value, index, self) => self.indexOf(value) === index;
@@ -16,14 +16,14 @@ const parseDistinct = (listTab) => {
   }
 
 const getAllBusesList =() => {
-  let url = 'http://127.0.0.1/devjs/react/start/src/data/all-buses.json';
+  let url = './../src/data/all-buses.json';
      fetch(url)
     .then(response => response.ok ? response.json() : Promise.reject(response))
     .then(json => setListBus(parseDistinct(json.result))    )
     .catch(error => console.log("Input data error", error));
 }
 const getAllTramList =() => {
-     let url = 'http://127.0.0.1/devjs/react/start/src/data/allTrams.json';
+     let url = './../src/data/allTrams.json';
      fetch(url)
     .then(response => response.ok ? response.json() : Promise.reject(response))
     .then(json => setListTram(parseDistinct(json.result))    )
@@ -63,8 +63,8 @@ const panes = [
     
     } </Tab.Pane>  },
   
-  //{ menuItem: 'Dostępne autobusy', render: () => <Tab.Pane>{ listBus.map((item, index) => (<button key={index} > {item} </button>) ) }</Tab.Pane> },
-  //{ menuItem: 'Dostępne tramwaje', render: () => <Tab.Pane>{ listTram.map((item, index) => (<button key={index}> {item} </button>) ) }</Tab.Pane> },
+  { menuItem: 'Dostępne autobusy', render: () => <Tab.Pane>{ listBus.map((item, index) => (<button key={index} > {item} </button>) ) }</Tab.Pane> },
+  { menuItem: 'Dostępne tramwaje', render: () => <Tab.Pane>{ listTram.map((item, index) => (<button key={index}> {item} </button>) ) }</Tab.Pane> },
   { menuItem: 'Pokaż przystanki', render: () => <Tab.Pane>{
     <form onSubmit={onHandleSubmitBusStop} ><label>Nazwa przystanku lub ulicy </label>
     <input type="text" name="busstop" onInput={inputHandler} onChange={onInputChange} value={busStopInput} required placeholder='wpisz nazwę ...'></input> 

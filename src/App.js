@@ -41,16 +41,14 @@ function Map() {
     const [bt, setBt] = useState(1);
     const [ch, setCh] = useState([true, false]); 
 
-
-
-    
-
     const svgUrl = ['./../public/bus-red.svg', './../public/tram-yel.svg'];
     const vehicle = ['Autobus','Tramwaj'];
+    const urlLocal = "http://localhost:8080";
+    const BASEURL = "http://ztm-bus.herokuapp.com";
     
     function openNav(line) {
       document.getElementById("mySidenav").style.width = "20vw";
-      fetch(`http://localhost:8080/ztm/timetable/${selectedBusStop.setof}/${selectedBusStop.pistil}/${line}`)
+      fetch(`${url}/${selectedBusStop.setof}/${selectedBusStop.pistil}/${line}`)
       .then(response => response.ok ? response.json() : Promise.reject(response))
       .then(json => setBusLineTimetable({line: line, timetable: json.result}))
       //.then(json => console.log(json.result))
@@ -94,14 +92,14 @@ function Map() {
 
 
 function getByBusLine(line, bt) {
-  fetch(`http://localhost:8080/ztm/vehicles/${bt}/${line}`)
+  fetch(`${BASEURL}/ztm/vehicles/${bt}/${line}`)
               .then(response => response.ok ? response.json() : Promise.reject(response))
               .then(json => setResultBus(json.result))
               .catch(error => console.log("Input data error", error))
 }
 
 function getByBusStopName(street) {
-  fetch(`http://localhost:8080/ztm/bus-stop/name-db/${street}`)
+  fetch(`${BASEURL}/ztm/bus-stop/name-db/${street}`)
               .then(response => response.ok ? response.json() : Promise.reject(response))
               .then(json => setResultBusStops(json))
               .catch(error => console.log("Input data error", error))
@@ -164,7 +162,7 @@ if(busLine[0]!==null){
       setSelectedBusStop(busstop);
       setMapCenter({ lat: +busstop.lat, lng: +busstop.lon });
 
-      fetch(`http://localhost:8080/ztm/timetable/${busstop.setof}/${busstop.pistil}`)
+      fetch(`${BASEURL}/ztm/timetable/${busstop.setof}/${busstop.pistil}`)
       .then(response => response.ok ? response.json() : Promise.reject(response))
       .then(json => lineListGenerator(json.result))
       .catch(error => console.log("Input data error", error))
@@ -185,12 +183,8 @@ if(busLine[0]!==null){
   
     }
 
-    const getLines = ()=>{
-      console.log("lista linii");
-    }
  
-    
-
+  
     return (
     <Fragment>
    
