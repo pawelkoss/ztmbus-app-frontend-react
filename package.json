@@ -19,7 +19,8 @@
                 "webpack-dev-server": "^3.10.1"
         },
         "scripts": {
-                "start": "webpack --watch"
+                "start": "webpack-dev-server"
+                
         },
         "dependencies": {
                 "@react-google-maps/api": "^1.8.6",
