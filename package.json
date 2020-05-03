@@ -1,9 +1,9 @@
 {
         "name": "js",
         "version": "1.0.0",
-        "description": "JS course",
+        "description": "Buses maps",
         "main": "index.js",
-        "author": "Łukasz Tarasiewicz",
+        "author": "Paweł Kossakowski",
         "license": "MIT",
         "private": true,
         "devDependencies": {
@@ -27,6 +27,7 @@
                 "@react-google-maps/api": "^1.8.6",
                 "@types/googlemaps": "^3.39.3",
                 "@types/react": "^16.9.32",
+                "dotenv": "^8.2.0",
                 "react": "^16.13.1",
                 "react-dom": "^16.13.1",
                 "react-google-maps": "^9.4.5",

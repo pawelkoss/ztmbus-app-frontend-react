@@ -14,9 +14,6 @@ import FormBusLine from './modules/FormTabs';
 import  "../src/sidebar.css";
 
 
-
-//const word = busData.result[0].VehicleNumber;
-//console.log(busData.result);
 //http://127.0.0.1/devjs/react/start/src/data/bus172.json
 //http://localhost:8080/ztm/vehicles/1/172
 
@@ -324,7 +321,7 @@ export function App(){
     <div style = {{ width: "90vw", height: "80vh"}}>
  
         <WrappedMap 
-        googleMapURL={'https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyBT8TVVtOZRnXdn6DqGI0Md7yk6SGHu4pE'}
+        googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyBT8TVVtOZRnXdn6DqGI0Md7yk6SGHu4pE`}
         loadingElement={<div style={{ height: `100%` }} />}
         containerElement={<div style={{ height: `100%` }} />}
         mapElement={<div style={{ height: `100%` }} />}  
