@@ -31,6 +31,7 @@ const getAllTramList =() => {
 }
 
 const inputHandler = (event)=>{
+  // todo: autosugestia
   //console.log("onInput z Form: " + busInput);
   
   //console.log(event.target.name);
@@ -63,8 +64,8 @@ const panes = [
     
     } </Tab.Pane>  },
   
-  { menuItem: 'Dostępne autobusy', render: () => <Tab.Pane>{ listBus.map((item, index) => (<button key={index} > {item} </button>) ) }</Tab.Pane> },
-  { menuItem: 'Dostępne tramwaje', render: () => <Tab.Pane>{ listTram.map((item, index) => (<button key={index}> {item} </button>) ) }</Tab.Pane> },
+  { menuItem: 'Dostępne autobusy', render: () => <Tab.Pane>{ listBus.map((item, index) => (<button key={index} disabled={true}> {item} </button>) ) }</Tab.Pane> },
+  { menuItem: 'Dostępne tramwaje', render: () => <Tab.Pane>{ listTram.map((item, index) => (<button key={index} disabled={true}> {item} </button>) ) }</Tab.Pane> },
   { menuItem: 'Pokaż przystanki', render: () => <Tab.Pane>{
     <form onSubmit={onHandleSubmitBusStop} ><label>Nazwa przystanku lub ulicy </label>
     <input type="text" name="busstop" onInput={inputHandler} onChange={onInputChange} value={busStopInput} required placeholder='wpisz nazwę ...'></input> 

@@ -30,8 +30,8 @@ function Map() {
     const [busLineTimetable, setBusLineTimetable] = useState({line:"", timetable:[]});
 
 //  Ustawienia mapy
-    const [mapCenter, setMapCenter] = useState({lat:52.237049, lng:21.017532});
-    const [defZoom, setDefZoom] = useState(13);
+    const [mapCenter, setMapCenter] = useState({lat:52.246149, lng:21.017532});
+    const [defZoom, setDefZoom] = useState(12);
     const [ownPosition, setOwnPosition] = useState({});
 
 //  Formularze
@@ -152,6 +152,7 @@ if(busLine[0]!==null){
         //console.log(`on submit & 1 getdata ${busLineForm} = ${busLine[0]} / ${btForm} = ${busLine[1]}`);
         
         getByBusLine(busLineForm, btForm);
+        
     };
 
     const handleSubmitBusStop = (event)=>{
@@ -206,6 +207,7 @@ if(busLine[0]!==null){
                         //setDefZoom(14);
                         setCurrVehNumber(bus.VehicleNumber);
                         setCurrBusTime(bus.Time);
+                        
                     }}
                     icon={{
                         url: svgUrl[bt-1],
