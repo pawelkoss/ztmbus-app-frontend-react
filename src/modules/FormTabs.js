@@ -31,18 +31,18 @@ const getAllTramList =() => {
 }
 
 const inputHandler = (event)=>{
-  console.log("onInput z Form: " + busInput);
+  //console.log("onInput z Form: " + busInput);
   
-  console.log(event.target.name);
+  //console.log(event.target.name);
 };
 
 
 const [btnDis, setBtnDis] = useState(true);
 useEffect(()=>{
-  console.log(`useEffect, ${ch}, btnDis przed check: ${btnDis}, busInput:${busInput}`);
+  //console.log(`useEffect, ${ch}, btnDis przed check: ${btnDis}, busInput:${busInput}`);
   if(ch[0]) { listBus.includes(busInput) ? setBtnDis(false) : setBtnDis(true);}
   if(ch[1]) { listTram.includes(busInput) ? setBtnDis(false) : setBtnDis(true); }
- console.log(`ch: ${ch}, btnDis po check ${btnDis}`)
+ //console.log(`ch: ${ch}, btnDis po check ${btnDis}`)
 },[ch, busInput]);
 
 const [listBus, setListBus] = useState([]);

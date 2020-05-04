@@ -45,24 +45,29 @@ function Map() {
     const vehicle = ['Autobus','Tramwaj'];
     const urlLocal = "http://localhost:8080";
     const BASEURL = "http://ztm-bus.herokuapp.com";
+
+    const headers = new Headers({
+      'Access-Control-Allow-Origin': 'http://plutioidtx.cluster029.hosting.ovh.net/'
+    });
     
     function openNav(line) {
       document.getElementById("mySidenav").style.width = "20vw";
-      fetch(`${url}/${selectedBusStop.setof}/${selectedBusStop.pistil}/${line}`)
+
+      fetch(`${BASEURL}/ztm/timetable/${selectedBusStop.setof}/${selectedBusStop.pistil}/${line}`)
       .then(response => response.ok ? response.json() : Promise.reject(response))
       .then(json => setBusLineTimetable({line: line, timetable: json.result}))
       //.then(json => console.log(json.result))
       .catch(error => console.log("Input data error", error))
 
-      console.log(`openNav ${line}`)
+     // console.log(`openNav ${line}`)
     }
     function closeNav() {
       document.getElementById("mySidenav").style.width = "0px";
-      console.log(`close`);
+      //console.log(`close`);
     }
 
  useEffect(() => {
-            console.log("hook geolokacja");    
+            //console.log("hook geolokacja");    
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(function(position) {
                 setOwnPosition({lat: position.coords.latitude, lng: position.coords.longitude});     
@@ -73,10 +78,10 @@ function Map() {
 
    const [currVehNumber, setCurrVehNumber] = useState(null);
    useEffect(() => {
-     console.log("hook sledzenie");
+    // console.log("hook sledzenie");
             if(currVehNumber != null && resultBus.length>0){
             const busCurrent = resultBus.filter((bus) => bus.VehicleNumber === currVehNumber)[0];
-            console.log(`current: ${busCurrent}`);
+            //console.log(`current: ${busCurrent}`);
             //setTimeout( setMapCenter({lat:busCurrent.Lat, lng:busCurrent.Lon}), 1000 );
             setCurrBusTime(busCurrent.Time);
             }
@@ -84,8 +89,8 @@ function Map() {
         );
         
   useEffect(() => {
-    console.log("hook resultBusStops");
-    console.log(resultBusStops);
+    //console.log("hook resultBusStops");
+    //console.log(resultBusStops);
     resultBusStops.length>0 && setMapCenter({lat: +resultBusStops[0].lat, lng: +resultBusStops[0].lon});
             }, [resultBusStops]
         );
@@ -144,16 +149,16 @@ if(busLine[0]!==null){
         setSelectedBus(null);
         setBusLine([busLineForm, btForm]);
         setBt(btForm);
-        console.log(`on submit & 1 getdata ${busLineForm} = ${busLine[0]} / ${btForm} = ${busLine[1]}`);
+        //console.log(`on submit & 1 getdata ${busLineForm} = ${busLine[0]} / ${btForm} = ${busLine[1]}`);
         
         getByBusLine(busLineForm, btForm);
     };
 
     const handleSubmitBusStop = (event)=>{
       event.preventDefault();
-      console.log(`on submit busStop ${busStopForm}`);
+      //console.log(`on submit busStop ${busStopForm}`);
       getByBusStopName(busStopForm);
-      console.log(resultBusStops);
+      //console.log(resultBusStops);
       setSelectedBusStop(null);
       setBusLineList([]);
     }
@@ -169,7 +174,7 @@ if(busLine[0]!==null){
 
       //console.log(error);
       const lineListGenerator = (res) =>{
-        console.log(res);
+        //console.log(res);
         let lineList = res.map(item=>item.values[0].value);
         setBusLineList(lineList);
         //let lineString='';
