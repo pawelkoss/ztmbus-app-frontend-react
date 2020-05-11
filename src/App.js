@@ -51,6 +51,7 @@ function Map() {
     });
     
     function openNav(line) {
+      setBusLineTimetable({line:"", timetable:[]});
       document.getElementById("mySidenav").style.width = "20vw";
 
       fetch(`${BASEURL}/ztm/timetable/${selectedBusStop.setof}/${selectedBusStop.pistil}/${line}`)
@@ -161,6 +162,8 @@ if(busLine[0]!==null){
       console.log(event.target[0].value);
       setSelectedBusStop(null);
       setBusLineList([]);
+      setDefZoom(10);
+
     }
 
     const resolveBusStop = (busstop)=>{
@@ -218,7 +221,6 @@ if(busLine[0]!==null){
       }  
       {   
         resultBusStops.map((busstop)=> (
-          
           <Marker
             key = {busstop.id}
             position = {{ lat: +busstop.lat, lng: +busstop.lon}}

@@ -1,6 +1,10 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { Tab } from 'semantic-ui-react';
 import Demo from './Autocomplete';
+import Button from '@material-ui/core/Button';
+import TextField from '@material-ui/core/TextField';
+import Box from '@material-ui/core/Box';
+
 
 
 
@@ -56,11 +60,23 @@ useEffect(() => {
 
 const panes = [
   { menuItem: 'Szukaj autobusu tramwaju', render: () => <Tab.Pane> { 
-    <form onSubmit={onHandleSubmit} ><label>Podaj dostępny numer linii: </label>
-        <input type="text" name="bus" onInput={inputHandler} onChange={()=>onInputChange(event)} value={busInput} required placeholder='wpisz numer ...' />
-        Autobus <input type="radio" checked={ch[0]} name="bt"  onChange={onInputChange} value='1' ></input>  | 
-        Tramwaj<input type="radio" checked={ch[1]}  name="bt"  onChange={onInputChange} value='2' ></input>
-        <button type="submit" disabled={btnDis}> Pokaż na mapie </button>
+    <form onSubmit={onHandleSubmit} >
+    <Box display="flex" flexDirection="row" >
+      <Box><label>Linia: </label></Box>
+        <Box p={1}>
+          <TextField width="50%" variant="outlined" label="Podaj dostępny numer linii" type="text" name="bus" onInput={inputHandler} onChange={()=>onInputChange(event)} value={busInput} required placeholder='wpisz numer ...' />
+        </Box>
+        <Box p={1}>
+          Autobus <input type="radio" checked={ch[0]} name="bt"  onChange={onInputChange} value='1' ></input>
+        </Box>
+        <Box p={1}>
+          Tramwaj <input type="radio" checked={ch[1]}  name="bt"  onChange={onInputChange} value='2' ></input>
+        </Box>
+        <Box p={1}>
+          <Button variant="contained" color ="primary" type="submit" disabled={btnDis}> Pokaż na mapie </Button>
+        </Box>
+        
+    </Box>
     </form>
     
     } </Tab.Pane>  },
@@ -69,7 +85,15 @@ const panes = [
   { menuItem: 'Dostępne tramwaje', render: () => <Tab.Pane>{ listTram.map((item, index) => (<button key={index} disabled={true}> {item} </button>) ) }</Tab.Pane> },
   { menuItem: 'Pokaż przystanki', render: () => <Tab.Pane>{
     <form onSubmit={onHandleSubmitBusStop}>
-      <Demo /> <button> Pokaż przystanki </button>
+      <Box display="flex" flexDirection="row" >
+        <Box p={1}>
+          <Demo /> 
+        </Box>
+        <Box p={1}>
+          <Button variant="contained" color ="primary" type="submit"> Pokaż przystanki </Button>
+        </Box>
+      </Box>
+      
 
     </form>
   } </Tab.Pane> },
