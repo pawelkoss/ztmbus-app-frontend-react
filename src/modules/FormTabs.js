@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { Tab } from 'semantic-ui-react';
-//import useSignUpForm from './CustomHooks';
+import Demo from './Autocomplete';
+
 
 
 // komponent
@@ -67,9 +68,9 @@ const panes = [
   { menuItem: 'Dostępne autobusy', render: () => <Tab.Pane>{ listBus.map((item, index) => (<button key={index} disabled={true}> {item} </button>) ) }</Tab.Pane> },
   { menuItem: 'Dostępne tramwaje', render: () => <Tab.Pane>{ listTram.map((item, index) => (<button key={index} disabled={true}> {item} </button>) ) }</Tab.Pane> },
   { menuItem: 'Pokaż przystanki', render: () => <Tab.Pane>{
-    <form onSubmit={onHandleSubmitBusStop} ><label>Nazwa przystanku lub ulicy </label>
-    <input type="text" name="busstop" onInput={inputHandler} onChange={onInputChange} value={busStopInput} required placeholder='wpisz nazwę ...'></input> 
-    <button type="submit"> Pokaż przystanki </button>
+    <form onSubmit={onHandleSubmitBusStop}>
+      <Demo /> <button> Pokaż przystanki </button>
+
     </form>
   } </Tab.Pane> },
 ]

@@ -132,7 +132,7 @@ if(busLine[0]!==null){
       const handleInputChange = (event)=>{
         event.target.name == 'bus' ? setBusLineForm(event.target.value) : null;
         event.target.name == 'bt' ? setBtForm(event.target.value) : null;
-        event.target.name == 'busstop' ? setBusStopForm(event.target.value) : null;
+        //event.target.name == 'busstop' ? setBusStopForm(event.target.value) : null;
         //console.log("handleInputchange z App:");
         //console.log(event.target.name + " : " + event.target.value);
         //console.log(`handleInputChange target.checked: ${event.target.checked}`);
@@ -157,9 +157,8 @@ if(busLine[0]!==null){
 
     const handleSubmitBusStop = (event)=>{
       event.preventDefault();
-      //console.log(`on submit busStop ${busStopForm}`);
-      getByBusStopName(busStopForm);
-      //console.log(resultBusStops);
+      getByBusStopName(event.target[0].value);
+      console.log(event.target[0].value);
       setSelectedBusStop(null);
       setBusLineList([]);
     }
